@@ -38,7 +38,7 @@ git clone https://github.com/SpillwaveSolutions/second-brain-starter.git
 
 # Private working brain (Grok Bots + laptop jobs write here)
 # Ask an org admin if you need access.
-git clone git@github.com:SpillwaveSolutions/grok-bot-knowledge.git
+git clone git@github.com:SpillwaveSolutions/rick-grok-bot-knowledge.git
 ```
 
 Point every plugin and every local job at the same `knowledge/` folder.
@@ -85,7 +85,7 @@ Rules:
 ## Docs in the starter
 
 - [second-brain-starter](https://github.com/SpillwaveSolutions/second-brain-starter) - public Northstar graph, agent identities, packing prompts, articles workflow
-- [grok-bot-knowledge](https://github.com/SpillwaveSolutions/grok-bot-knowledge) - private working second brain (org members)
+- [rick-grok-bot-knowledge](https://github.com/SpillwaveSolutions/rick-grok-bot-knowledge) - private working second brain (org members)
 
 ## License
 
