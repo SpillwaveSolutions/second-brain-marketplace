@@ -1,0 +1,239 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "spillwave-second-brain",
+  "description": "Spillwave second-brain ContentPack suite. Nine job-function plugins that write a shared OKF knowledge tree.",
+  "owner": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "second-brain-core",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/second-brain-core"
+      },
+      "description": "Shared OKF schemas, typed edges, deterministic write helpers, and ContextPack engine.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/second-brain-core",
+      "repository": "https://github.com/SpillwaveSolutions/second-brain-core",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "sbc"
+      ]
+    },
+    {
+      "name": "executive-coordination",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/executive-coordination"
+      },
+      "description": "Chief-of-staff ContentPack: priorities, decisions, blockers, digests, handoffs.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/executive-coordination",
+      "repository": "https://github.com/SpillwaveSolutions/executive-coordination",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "exc"
+      ]
+    },
+    {
+      "name": "account-management",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/account-management"
+      },
+      "description": "Account and relationship ContentPack: clients, contacts, plans, deliverables, renewals.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/account-management",
+      "repository": "https://github.com/SpillwaveSolutions/account-management",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "acm"
+      ]
+    },
+    {
+      "name": "sales-pipeline",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/sales-pipeline"
+      },
+      "description": "Sales pipeline ContentPack: leads, opportunities, stages, objections, forecasts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/sales-pipeline",
+      "repository": "https://github.com/SpillwaveSolutions/sales-pipeline",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "spl"
+      ]
+    },
+    {
+      "name": "executive-job-search",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/executive-job-search"
+      },
+      "description": "Executive job-search ContentPack: job leads, roles, interviews, offers, criteria.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/executive-job-search",
+      "repository": "https://github.com/SpillwaveSolutions/executive-job-search",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "ejs"
+      ]
+    },
+    {
+      "name": "consulting-leads",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/consulting-leads"
+      },
+      "description": "Inbound consulting-lead ContentPack: engagement types, discovery, scopes, qualification.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/consulting-leads",
+      "repository": "https://github.com/SpillwaveSolutions/consulting-leads",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "csl"
+      ]
+    },
+    {
+      "name": "content-media",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/content-media"
+      },
+      "description": "Content and audience ContentPack: articles, drafts, series, subscribers, metrics.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/content-media",
+      "repository": "https://github.com/SpillwaveSolutions/content-media",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cme"
+      ]
+    },
+    {
+      "name": "news-digest",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/news-digest"
+      },
+      "description": "News digest ContentPack: items, sources, scheduled digests, trends, follow-up candidates.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/news-digest",
+      "repository": "https://github.com/SpillwaveSolutions/news-digest",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "nwd"
+      ]
+    },
+    {
+      "name": "gtm-positioning",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/gtm-positioning"
+      },
+      "description": "Go-to-market ContentPack: offers, positioning, ICPs, campaigns, battle cards.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/gtm-positioning",
+      "repository": "https://github.com/SpillwaveSolutions/gtm-positioning",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "content-pack",
+        "second-brain",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "gtm"
+      ]
+    }
+  ]
+}

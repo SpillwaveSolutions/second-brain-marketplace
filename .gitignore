@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+node_modules/
+*.egg-info/
+.okf/.index/
+knowledge/.index/
+knowledge/packs/*-pack.md
+.pytest_cache/
+.env
+secrets/
