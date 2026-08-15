@@ -45,25 +45,37 @@ Point every plugin and every local job at the same `knowledge/` folder.
 
 ## Plugins
 
-| Plugin | Agent identity | What it writes |
-|--------|----------------|----------------|
-| `second-brain-core` | Grok Bot: Second Brain Core | Shared OKF schemas, typed edges, deterministic write helpers, and ContextPack engine. |
-| `executive-coordination` | Grok Bot: Executive Assistant | Chief-of-staff ContentPack: priorities, decisions, blockers, digests, handoffs. |
-| `account-management` | Grok Bot: Account Management | Account and relationship ContentPack: clients, contacts, plans, deliverables, renewals. |
-| `sales-pipeline` | Grok Bot: Sales | Sales pipeline ContentPack: leads, opportunities, stages, objections, forecasts. |
-| `executive-job-search` | Grok Bot: Executive Job Search | Executive job-search ContentPack: job leads, roles, interviews, offers, criteria. |
-| `consulting-leads` | Grok Bot: Consulting Leads | Inbound consulting-lead ContentPack: engagement types, discovery, scopes, qualification. |
-| `content-media` | Grok Bot: Articles | Content and audience ContentPack: articles, drafts, series, subscribers, metrics. |
-| `news-digest` | Grok Bot: News Digest | News digest ContentPack: items, sources, scheduled digests, trends, follow-up candidates. |
-| `gtm-positioning` | Grok Bot: GTM | Go-to-market ContentPack: offers, positioning, ICPs, campaigns, battle cards. |
+Plugins are job functions. They do **not** ship with an agent name.
+
+The agent using the plugin decides who it is — or asks the human — then claims that identity:
+
+```bash
+python3 scripts/brain.py whoami
+# if claimed is false:
+#   ask the user "What should I sign as?"
+python3 scripts/brain.py whoami --claim "Your Name" --plugin content-media
+```
+
+Writes fail until an identity is claimed (`--author`, `SECOND_BRAIN_IDENTITY`, or `knowledge/.identity.json`). There is no default `Grok Bot: …` author.
+
+| Plugin | Job function | What it writes |
+|--------|--------------|----------------|
+| `second-brain-core` | Shared substrate | Shared OKF schemas, typed edges, deterministic write helpers, and ContextPack engine. |
+| `executive-coordination` | Chief of staff | Priorities, decisions, blockers, digests, handoffs. |
+| `account-management` | Accounts | Clients, contacts, plans, deliverables, renewals. |
+| `sales-pipeline` | Sales | Leads, opportunities, stages, objections, forecasts. |
+| `executive-job-search` | Job search | Job leads, roles, interviews, offers, criteria. |
+| `consulting-leads` | Consulting inbound | Engagement types, discovery, scopes, qualification. |
+| `content-media` | Articles / content | Articles, drafts, series, subscribers, metrics. |
+| `news-digest` | News | Items, sources, scheduled digests, trends, follow-up candidates. |
+| `gtm-positioning` | Go-to-market | Offers, positioning, ICPs, campaigns, battle cards. |
 
 ## How the pieces fit
 
 ```
-Grok Bot: Articles  ──writes──►  knowledge/articles/
-Grok Bot: Sales     ──writes──►  knowledge/sales-leads/
-Laptop job (Codex)  ──writes──►  knowledge/   (same tree)
-Claude Code         ──packs───►  bounded ContextPack (2 hops / ~20 nodes)
+Any agent (claimed identity)  ──writes──►  knowledge/<catalog>/
+Laptop job / Codex            ──writes──►  knowledge/   (same tree)
+Claude Code / Grok            ──packs───►  bounded ContextPack (2 hops / ~20 nodes)
 ```
 
 Rules:
