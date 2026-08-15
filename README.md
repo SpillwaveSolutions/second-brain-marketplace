@@ -79,6 +79,17 @@ Rules:
 - [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) - AGER orchestrator / doer / judge / synthesizer.
 - [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) - Visible work log. Append-only ULID JSONL plus fold.
 
+## Onboarding a Grok Bot
+
+Each plugin now ships `docs/ONBOARDING.md`. Give a new Grok Bot that file first. It covers:
+
+- History of the LLM-wiki / second-brain effort (OKF, WikiTicket, PKC, SAC, DEKC, AGER, ContentPacks)
+- Destination state: cloud Grok Bots and local laptop agents reading and writing the same git-native tree
+- Identity, isolation, deterministic write boundary, progressive disclosure
+- Every public repository in this suite plus the foundation layer
+
+Start with [second-brain-core docs/ONBOARDING.md](https://github.com/SpillwaveSolutions/second-brain-core/blob/main/docs/ONBOARDING.md).
+
 ## Docs in the starter
 
 - [second-brain-starter](https://github.com/SpillwaveSolutions/second-brain-starter) - public Northstar graph, agent identities, packing prompts, articles workflow
