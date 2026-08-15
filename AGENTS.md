@@ -3,6 +3,7 @@
 This repo is a marketplace catalog, not a knowledge tree.
 
 - Install plugins from here.
-- Write knowledge into a local `knowledge/` tree. The public demo is `second-brain-starter`. Never publish the location of a private working brain.
-- **Do not hardcode an identity.** The agent using a plugin claims one (`brain.py whoami --claim`) or asks the human. Plugins are job functions, not bot names.
+- Write knowledge into `second-brain-starter` (public demo) or the human's existing private knowledge folder.
+- Identity format is `grok-bot/<plugin-id>` (or `Grok Bot: <Role>` as a chat prefix).
 - Never commit real client names to a public repo.
+- Isolation: session worktree + PR. See second-brain-core docs/ISOLATION.md.

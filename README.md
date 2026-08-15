@@ -1,10 +1,10 @@
 # Spillwave Second Brain Marketplace
 
-One Claude Code marketplace for the nine job-function ContentPack plugins.
+One Claude Code marketplace for the eight job-function ContentPack plugins plus core.
 Each plugin writes OKF Markdown + YAML into the **same** `knowledge/` tree.
-Grok Bots, Claude Code, Codex, and local laptop jobs share that tree.
+Grok Bots, Claude Code, Codex, Deep Agents, and local laptop jobs share that tree.
 
-MIT. Dual-host: **Claude Code**, **Grok Build**, and **Codex**.
+MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Agent Plugins 1.0**, **Grok Bot**, **LangChain Deep Agents**.
 
 ## Install the suite
 
@@ -30,47 +30,36 @@ skilz install SpillwaveSolutions/second-brain-core
 skilz install SpillwaveSolutions/content-media
 ```
 
-Then clone the public starter (Northstar fiction only):
+Use the public starter for fiction-only samples:
 
 ```bash
 git clone https://github.com/SpillwaveSolutions/second-brain-starter.git
 ```
 
-Point every plugin and every local job at **your** `knowledge/` folder. Do not publish the location of a private working tree.
+Point every plugin at **your** existing local `knowledge/` folder. This marketplace never names a private remote. Concurrent writers on different machines should open an isolation session (`brain_session.py open`) so writes land as PRs. See second-brain-core `docs/ISOLATION.md`.
 
 ## Plugins
 
-Plugins are job functions. They do **not** ship with an agent name.
-
-The agent using the plugin decides who it is — or asks the human — then claims that identity:
-
-```bash
-python3 scripts/brain.py whoami
-# if claimed is false:
-#   ask the user "What should I sign as?"
-python3 scripts/brain.py whoami --claim "Your Name" --plugin content-media
-```
-
-Writes fail until an identity is claimed (`--author`, `SECOND_BRAIN_IDENTITY`, or `knowledge/.identity.json`). There is no default `Grok Bot: …` author.
-
-| Plugin | Job function | What it writes |
-|--------|--------------|----------------|
-| `second-brain-core` | Shared substrate | Shared OKF schemas, typed edges, deterministic write helpers, and ContextPack engine. |
-| `executive-coordination` | Chief of staff | Priorities, decisions, blockers, digests, handoffs. |
-| `account-management` | Accounts | Clients, contacts, plans, deliverables, renewals. |
-| `sales-pipeline` | Sales | Leads, opportunities, stages, objections, forecasts. |
-| `executive-job-search` | Job search | Job leads, roles, interviews, offers, criteria. |
-| `consulting-leads` | Consulting inbound | Engagement types, discovery, scopes, qualification. |
-| `content-media` | Articles / content | Articles, drafts, series, subscribers, metrics. |
-| `news-digest` | News | Items, sources, scheduled digests, trends, follow-up candidates. |
-| `gtm-positioning` | Go-to-market | Offers, positioning, ICPs, campaigns, battle cards. |
+| Plugin | Agent identity | What it writes |
+|--------|----------------|----------------|
+| `second-brain-core` | grok-bot/second-brain-core | Shared OKF schemas, typed edges, deterministic write helpers, isolation, ContextPack engine. |
+| `executive-coordination` | grok-bot/executive-coordination | Chief-of-staff ContentPack: priorities, decisions, blockers, digests, handoffs. |
+| `account-management` | grok-bot/account-management | Account and relationship ContentPack: clients, contacts, plans, deliverables, renewals. |
+| `sales-pipeline` | grok-bot/sales-pipeline | Sales pipeline ContentPack: leads, opportunities, stages, objections, forecasts. |
+| `executive-job-search` | grok-bot/executive-job-search | Executive job-search ContentPack: job leads, roles, interviews, offers, criteria. |
+| `consulting-leads` | grok-bot/consulting-leads | Inbound consulting-lead ContentPack: engagement types, discovery, scopes, qualification. |
+| `content-media` | grok-bot/content-media | Content and audience ContentPack: articles, drafts, series, subscribers, metrics. |
+| `news-digest` | grok-bot/news-digest | News digest ContentPack: items, sources, scheduled digests, trends, follow-up candidates. |
+| `gtm-positioning` | grok-bot/gtm-positioning | Go-to-market ContentPack: offers, positioning, ICPs, campaigns, battle cards. |
 
 ## How the pieces fit
 
 ```
-Any agent (claimed identity)  ──writes──►  knowledge/<catalog>/
-Laptop job / Codex            ──writes──►  knowledge/   (same tree)
-Claude Code / Grok            ──packs───►  bounded ContextPack (2 hops / ~20 nodes)
+Grok Bot: Articles  ──writes──►  knowledge/articles/     (session worktree + PR)
+Grok Bot: Sales     ──writes──►  knowledge/sales-leads/
+Laptop job (Codex)  ──writes──►  knowledge/   (same tree)
+Claude Code         ──packs───►  bounded ContextPack (2 hops / ~20 nodes)
+Deep Agents         ──skills──►  same scripts, same isolation
 ```
 
 Rules:
@@ -79,6 +68,7 @@ Rules:
 2. An agent never invents `rel` values and never writes types it does not own.
 3. Progressive disclosure. Pack from a root. Do not dump the whole tree.
 4. Samples use the fictional **Northstar** account and **Lumenfield** employer. No real client names.
+5. Concurrent writers isolate via worktree + PR. They do not share one mutable main tip.
 
 ## Related engineering plugins
 
@@ -91,7 +81,7 @@ Rules:
 
 ## Docs in the starter
 
-- [second-brain-starter](https://github.com/SpillwaveSolutions/second-brain-starter) - public Northstar graph, packing prompts, articles workflow
+- [second-brain-starter](https://github.com/SpillwaveSolutions/second-brain-starter) - public Northstar graph, agent identities, packing prompts, articles workflow
 
 ## License
 

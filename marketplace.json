@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-second-brain",
-  "description": "Spillwave second-brain ContentPack suite. Nine job-function plugins that write a shared OKF knowledge tree.",
+  "description": "Spillwave second-brain ContentPack suite. Eight job-function plugins plus core that write a shared OKF knowledge tree.",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
         "repo": "SpillwaveSolutions/second-brain-core"
       },
       "description": "Shared OKF schemas, typed edges, deterministic write helpers, and ContextPack engine.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -42,7 +42,7 @@
         "repo": "SpillwaveSolutions/executive-coordination"
       },
       "description": "Chief-of-staff ContentPack: priorities, decisions, blockers, digests, handoffs.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -67,7 +67,7 @@
         "repo": "SpillwaveSolutions/account-management"
       },
       "description": "Account and relationship ContentPack: clients, contacts, plans, deliverables, renewals.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -92,7 +92,7 @@
         "repo": "SpillwaveSolutions/sales-pipeline"
       },
       "description": "Sales pipeline ContentPack: leads, opportunities, stages, objections, forecasts.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -117,7 +117,7 @@
         "repo": "SpillwaveSolutions/executive-job-search"
       },
       "description": "Executive job-search ContentPack: job leads, roles, interviews, offers, criteria.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -142,7 +142,7 @@
         "repo": "SpillwaveSolutions/consulting-leads"
       },
       "description": "Inbound consulting-lead ContentPack: engagement types, discovery, scopes, qualification.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -167,7 +167,7 @@
         "repo": "SpillwaveSolutions/content-media"
       },
       "description": "Content and audience ContentPack: articles, drafts, series, subscribers, metrics.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -192,7 +192,7 @@
         "repo": "SpillwaveSolutions/news-digest"
       },
       "description": "News digest ContentPack: items, sources, scheduled digests, trends, follow-up candidates.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -217,7 +217,7 @@
         "repo": "SpillwaveSolutions/gtm-positioning"
       },
       "description": "Go-to-market ContentPack: offers, positioning, ICPs, campaigns, battle cards.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Rick Hightower"
       },
