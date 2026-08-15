@@ -30,18 +30,13 @@ skilz install SpillwaveSolutions/second-brain-core
 skilz install SpillwaveSolutions/content-media
 ```
 
-Then clone the shared knowledge tree:
+Then clone the public starter (Northstar fiction only):
 
 ```bash
-# Public starter (Northstar fiction only)
 git clone https://github.com/SpillwaveSolutions/second-brain-starter.git
-
-# Private working brain (Grok Bots + laptop jobs write here)
-# Ask an org admin if you need access.
-git clone git@github.com:SpillwaveSolutions/rick-grok-bot-knowledge.git
 ```
 
-Point every plugin and every local job at the same `knowledge/` folder.
+Point every plugin and every local job at **your** `knowledge/` folder. Do not publish the location of a private working tree.
 
 ## Plugins
 
@@ -96,8 +91,7 @@ Rules:
 
 ## Docs in the starter
 
-- [second-brain-starter](https://github.com/SpillwaveSolutions/second-brain-starter) - public Northstar graph, agent identities, packing prompts, articles workflow
-- [rick-grok-bot-knowledge](https://github.com/SpillwaveSolutions/rick-grok-bot-knowledge) - private working second brain (org members)
+- [second-brain-starter](https://github.com/SpillwaveSolutions/second-brain-starter) - public Northstar graph, packing prompts, articles workflow
 
 ## License
 
