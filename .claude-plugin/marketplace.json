@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.3.1"
+    "version": "0.3.2"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
         "repo": "SpillwaveSolutions/second-brain-core"
       },
       "description": "Shared OKF schemas, typed edges, deterministic write helpers, and ContextPack engine.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": {
         "name": "Rick Hightower"
       },
@@ -242,7 +242,7 @@
         "repo": "SpillwaveSolutions/okf-plugin"
       },
       "description": "Open Knowledge Format graph engine. Shared substrate for every second-brain pack.",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -266,7 +266,7 @@
         "repo": "SpillwaveSolutions/project-knowledge-capture"
       },
       "description": "Project Knowledge Capture. The why second brain: decisions, experiments, rationale.",
-      "version": "0.7.0",
+      "version": "0.7.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -290,7 +290,7 @@
         "repo": "SpillwaveSolutions/system-architecture-capture"
       },
       "description": "System Architecture Capture. The what-is-running second brain.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -314,7 +314,7 @@
         "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
       },
       "description": "Data Engineering Knowledge Capture. The data-plane second brain.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -338,7 +338,7 @@
         "repo": "SpillwaveSolutions/okf-agent-graph"
       },
       "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs.",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -362,7 +362,7 @@
         "repo": "SpillwaveSolutions/wiki_ticket_sdd"
       },
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
-      "version": "0.24.0",
+      "version": "0.24.1",
       "author": {
         "name": "Rick Hightower"
       },
