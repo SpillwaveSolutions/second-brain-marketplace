@@ -70,7 +70,23 @@ Rules:
 4. Samples use the fictional **Northstar** account and **Lumenfield** employer. No real client names.
 5. Concurrent writers isolate via worktree + PR. They do not share one mutable main tip.
 
+## Foundation plugins (now in this marketplace)
+
+Install the engineering substrate the same way as a job pack:
+
+| Plugin | Repo |
+|--------|------|
+| `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) |
+| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) |
+| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) |
+| `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) |
+| `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) |
+| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) |
+
+Onboarding for any host: [second-brain-core docs/ONBOARDING.md](https://github.com/SpillwaveSolutions/second-brain-core/blob/main/docs/ONBOARDING.md).
+
 ## Related engineering plugins
+
 
 - [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) - The why second brain. Decisions, experiments, rationale.
 - [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) - The what-is-running second brain.
