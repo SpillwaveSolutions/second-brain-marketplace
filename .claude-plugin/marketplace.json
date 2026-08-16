@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-second-brain",
-  "description": "Spillwave second-brain ContentPack suite. Nine job-function plugins that write a shared OKF knowledge tree.",
+  "description": "Spillwave second-brain suite. Eight job-function ContentPacks plus core, and the foundation layer (OKF / PKC / SAC / DEKC / AGER / WikiTicket).",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.1.0"
+    "version": "0.3.1"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
         "repo": "SpillwaveSolutions/second-brain-core"
       },
       "description": "Shared OKF schemas, typed edges, deterministic write helpers, and ContextPack engine.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -42,7 +42,7 @@
         "repo": "SpillwaveSolutions/executive-coordination"
       },
       "description": "Chief-of-staff ContentPack: priorities, decisions, blockers, digests, handoffs.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -67,7 +67,7 @@
         "repo": "SpillwaveSolutions/account-management"
       },
       "description": "Account and relationship ContentPack: clients, contacts, plans, deliverables, renewals.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -92,7 +92,7 @@
         "repo": "SpillwaveSolutions/sales-pipeline"
       },
       "description": "Sales pipeline ContentPack: leads, opportunities, stages, objections, forecasts.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -117,7 +117,7 @@
         "repo": "SpillwaveSolutions/executive-job-search"
       },
       "description": "Executive job-search ContentPack: job leads, roles, interviews, offers, criteria.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -142,7 +142,7 @@
         "repo": "SpillwaveSolutions/consulting-leads"
       },
       "description": "Inbound consulting-lead ContentPack: engagement types, discovery, scopes, qualification.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -167,7 +167,7 @@
         "repo": "SpillwaveSolutions/content-media"
       },
       "description": "Content and audience ContentPack: articles, drafts, series, subscribers, metrics.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -192,7 +192,7 @@
         "repo": "SpillwaveSolutions/news-digest"
       },
       "description": "News digest ContentPack: items, sources, scheduled digests, trends, follow-up candidates.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -217,7 +217,7 @@
         "repo": "SpillwaveSolutions/gtm-positioning"
       },
       "description": "Go-to-market ContentPack: offers, positioning, ICPs, campaigns, battle cards.",
-      "version": "0.1.0",
+      "version": "0.3.1",
       "author": {
         "name": "Rick Hightower"
       },
@@ -233,6 +233,150 @@
         "grok-build",
         "codex",
         "gtm"
+      ]
+    },
+    {
+      "name": "okf-graph-eng",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/okf-plugin"
+      },
+      "description": "Open Knowledge Format graph engine. Shared substrate for every second-brain pack.",
+      "version": "0.7.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/okf-plugin",
+      "repository": "https://github.com/SpillwaveSolutions/okf-plugin",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "graph",
+        "foundation",
+        "claude-code",
+        "grok-build",
+        "codex"
+      ]
+    },
+    {
+      "name": "project-knowledge-capture",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/project-knowledge-capture"
+      },
+      "description": "Project Knowledge Capture. The why second brain: decisions, experiments, rationale.",
+      "version": "0.7.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
+      "repository": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "pkc",
+        "foundation",
+        "claude-code",
+        "grok-build",
+        "codex"
+      ]
+    },
+    {
+      "name": "system-architecture-capture",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/system-architecture-capture"
+      },
+      "description": "System Architecture Capture. The what-is-running second brain.",
+      "version": "0.4.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/system-architecture-capture",
+      "repository": "https://github.com/SpillwaveSolutions/system-architecture-capture",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "sac",
+        "foundation",
+        "claude-code",
+        "grok-build",
+        "codex"
+      ]
+    },
+    {
+      "name": "data-engineering-knowledge-capture",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
+      },
+      "description": "Data Engineering Knowledge Capture. The data-plane second brain.",
+      "version": "0.3.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture",
+      "repository": "https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "dekc",
+        "foundation",
+        "claude-code",
+        "grok-build",
+        "codex"
+      ]
+    },
+    {
+      "name": "okf-agent-graph",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/okf-agent-graph"
+      },
+      "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs.",
+      "version": "0.6.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/okf-agent-graph",
+      "repository": "https://github.com/SpillwaveSolutions/okf-agent-graph",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "ager",
+        "foundation",
+        "claude-code",
+        "grok-build",
+        "codex"
+      ]
+    },
+    {
+      "name": "worklog",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/wiki_ticket_sdd"
+      },
+      "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
+      "version": "0.24.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
+      "repository": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "okf",
+        "worklog",
+        "foundation",
+        "claude-code",
+        "grok-build",
+        "codex"
       ]
     }
   ]

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1 — 2026-08-16
+
+- Marketplace lists the **foundation layer** (okf-plugin, PKC, SAC, DEKC, AGER, WikiTicket) for discovery.
+- ContentPack entries stamped 0.3.1 (privacy-scrub Wave B).
+- `.claude-plugin/marketplace.json` synced with the root marketplace (was stale at 0.1.0).
+
+
 ## 0.3.0 - 2026-08-15
 
 - Every ContentPack now ships `docs/ONBOARDING.md`: LLM-wiki history, destination state, public repo list.
