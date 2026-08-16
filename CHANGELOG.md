@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.2 — 2026-08-16
+
+- Sync marketplace pins to **post-Wave-C identity** versions (fail-closed `--author` / `SECOND_BRAIN_IDENTITY` + WriteEvent on knowledge writes):
+  - second-brain-core **0.3.2**
+  - okf-graph-eng **0.7.1**
+  - project-knowledge-capture **0.7.1**
+  - system-architecture-capture **0.4.1**
+  - data-engineering-knowledge-capture **0.3.1**
+  - okf-agent-graph **0.6.1**
+  - worklog **0.24.1**
+- Job packs remain **0.3.1**.
+- Root `marketplace.json` and `.claude-plugin/marketplace.json` stay in sync.
+- Implements part of [okf-plugin#55](https://github.com/SpillwaveSolutions/okf-plugin/issues/55).
+
 ## 0.3.1 — 2026-08-16
 
 - Marketplace lists the **foundation layer** (okf-plugin, PKC, SAC, DEKC, AGER, WikiTicket) for discovery.
