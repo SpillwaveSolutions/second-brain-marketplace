@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.3.3"
+    "version": "0.3.4"
   },
   "plugins": [
     {
@@ -265,8 +265,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/project-knowledge-capture"
       },
-      "description": "Project Knowledge Capture. The why second brain: decisions, experiments, rationale.",
-      "version": "0.7.1",
+      "description": "Project Knowledge Capture. The why second brain: decisions, experiments, rationale. Fail-closed 1/4-window ContextPack token budget.",
+      "version": "0.7.2",
       "author": {
         "name": "Rick Hightower"
       },
