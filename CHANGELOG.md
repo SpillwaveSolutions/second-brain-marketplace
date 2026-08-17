@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.4 — 2026-08-16
+
+- Pin **project-knowledge-capture 0.7.2** (ContextPack token budget: 1/4 window, fail-closed; bodies off unless pack root; auto-inject stays silent over budget).
+- Core stays **0.3.3**. Other foundation pins unchanged.
+- Root `marketplace.json` and `.claude-plugin/marketplace.json` stay in sync.
+- Implements part of [okf-plugin#55](https://github.com/SpillwaveSolutions/okf-plugin/issues/55).
+
 ## 0.3.3 — 2026-08-16
 
 - Pin **second-brain-core 0.3.3** (ContextPack token budget: 1/4 window, fail-closed; bodies off unless pack root).
