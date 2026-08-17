@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.3.5"
+    "version": "0.3.6"
   },
   "plugins": [
     {
@@ -241,8 +241,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/okf-plugin"
       },
-      "description": "Open Knowledge Format graph engine. Shared substrate for every second-brain pack.",
-      "version": "0.7.1",
+      "description": "Open Knowledge Format graph engine. Shared substrate for every second-brain pack. Fail-closed PostToolUse validate (does not curate).",
+      "version": "0.7.2",
       "author": {
         "name": "Rick Hightower"
       },
