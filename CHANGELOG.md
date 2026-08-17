@@ -1,6 +1,13 @@
 # Changelog
 
+## 0.3.3 — 2026-08-16
+
+- Pin **second-brain-core 0.3.3** (ContextPack token budget: 1/4 window, fail-closed; bodies off unless pack root).
+- Job packs stay **0.3.1**. Other foundation pins unchanged.
+- Root `marketplace.json` and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.3.2 — 2026-08-16
+
 
 - Sync marketplace pins to **post-Wave-C identity** versions (fail-closed `--author` / `SECOND_BRAIN_IDENTITY` + WriteEvent on knowledge writes):
   - second-brain-core **0.3.2**
