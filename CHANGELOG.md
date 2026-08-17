@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.5 — 2026-08-16
+
+- Pin **system-architecture-capture 0.4.2** (ContextPack token budget).
+- Pin **data-engineering-knowledge-capture 0.3.2** (ContextPack token budget).
+- Pin **okf-agent-graph 0.6.2** (local AGER packer, same fail-closed 1/4-window contract).
+- Core stays **0.3.3**. PKC stays **0.7.2**.
+- Root `marketplace.json` and `.claude-plugin/marketplace.json` stay in sync.
+- Implements part of [okf-plugin#55](https://github.com/SpillwaveSolutions/okf-plugin/issues/55).
+
 ## 0.3.4 — 2026-08-16
 
 - Pin **project-knowledge-capture 0.7.2** (ContextPack token budget: 1/4 window, fail-closed; bodies off unless pack root; auto-inject stays silent over budget).

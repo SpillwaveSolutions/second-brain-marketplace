@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.3.4"
+    "version": "0.3.5"
   },
   "plugins": [
     {
@@ -289,8 +289,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/system-architecture-capture"
       },
-      "description": "System Architecture Capture. The what-is-running second brain.",
-      "version": "0.4.1",
+      "description": "System Architecture Capture. The what-is-running second brain. Fail-closed 1/4-window ContextPack token budget.",
+      "version": "0.4.2",
       "author": {
         "name": "Rick Hightower"
       },
@@ -313,8 +313,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
       },
-      "description": "Data Engineering Knowledge Capture. The data-plane second brain.",
-      "version": "0.3.1",
+      "description": "Data Engineering Knowledge Capture. The data-plane second brain. Fail-closed 1/4-window ContextPack token budget.",
+      "version": "0.3.2",
       "author": {
         "name": "Rick Hightower"
       },
@@ -337,8 +337,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/okf-agent-graph"
       },
-      "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs.",
-      "version": "0.6.1",
+      "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs. Local ContextPack with fail-closed 1/4-window token budget.",
+      "version": "0.6.2",
       "author": {
         "name": "Rick Hightower"
       },
