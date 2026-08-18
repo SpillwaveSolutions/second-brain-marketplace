@@ -4,7 +4,8 @@ One Claude Code marketplace for the eight job-function ContentPack plugins plus 
 Each plugin writes OKF Markdown + YAML into the **same** `knowledge/` tree.
 Grok Bots, Claude Code, Codex, Deep Agents, and local laptop jobs share that tree.
 
-MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Agent Plugins 1.0**, **Grok Bot**, **LangChain Deep Agents**.
+MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Cursor**, **Agent Plugins 1.0**, **Grok Bot**, **LangChain Deep Agents**.
+
 
 ## Install the suite
 
@@ -30,7 +31,17 @@ skilz install SpillwaveSolutions/second-brain-core
 skilz install SpillwaveSolutions/content-media
 ```
 
+Cursor (including Grok Bot cloud agents):
+
+```text
+/plugin marketplace add SpillwaveSolutions/second-brain-marketplace
+/plugin install content-media
+```
+
+Each pack ships `.cursor-plugin/plugin.json` and `docs/CURSOR.md`. A Cursor session opened on the knowledge tree still follows the write protocol even without a plugin install.
+
 Use the public starter for fiction-only samples:
+
 
 ```bash
 git clone https://github.com/SpillwaveSolutions/second-brain-starter.git

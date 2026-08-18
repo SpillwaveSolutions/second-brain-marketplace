@@ -1,6 +1,15 @@
 # Changelog
 
+## 0.3.7 — 2026-08-17
+
+- **Cursor host.** Every pack now ships `.cursor-plugin` + `docs/CURSOR.md`.
+- Pins: core **0.3.5**, executive-coordination **0.3.3**, eight job packs **0.3.2**,
+  okf-graph-eng **0.7.3**, PKC **0.7.3**, SAC **0.4.3**, DEKC **0.3.3**,
+  AGER **0.6.3**, worklog **0.24.2**.
+- Root `marketplace.json` and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.3.6 — 2026-08-17
+
 
 - Pin **okf-graph-eng 0.7.2** (PostToolUse is fail-closed validate, not curate).
 - Core stays **0.3.3**. PKC **0.7.2**. SAC **0.4.2**. DEKC **0.3.2**. AGER **0.6.2**.
