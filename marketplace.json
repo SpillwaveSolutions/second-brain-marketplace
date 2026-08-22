@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-second-brain",
-  "description": "Spillwave second-brain suite. Eight job-function ContentPacks plus core, and the foundation layer (OKF / PKC / SAC / DEKC / AGER / WikiTicket). Cursor is a first-class host (Agent Plugins 1.0 + .cursor-plugin).",
+  "description": "Spillwave second-brain suite plus AGER translators. Foundation (OKF / PKC / SAC / DEKC / AGER / WikiTicket), eight ContentPacks, and framework translators. Cursor is a first-class host.",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.3.9"
+    "version": "0.4.0"
   },
   "plugins": [
     {
@@ -392,6 +392,265 @@
         "grok-build",
         "codex",
         "cursor"
+      ]
+    },
+    {
+      "name": "claude-code-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/claude-code-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a Claude Code plugin (skills, agents, commands, hooks).",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/claude-code-ager",
+      "repository": "https://github.com/SpillwaveSolutions/claude-code-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "claude-code",
+        "codegen",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "grok-build-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/grok-build-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/grok-build-ager",
+      "repository": "https://github.com/SpillwaveSolutions/grok-build-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "grok-build",
+        "codegen",
+        "claude-code",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "codex-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/codex-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a Codex plugin.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/codex-ager",
+      "repository": "https://github.com/SpillwaveSolutions/codex-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "codex",
+        "codegen",
+        "claude-code",
+        "grok-build",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "langgraph-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/langgraph-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a LangGraph StateGraph.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/langgraph-ager",
+      "repository": "https://github.com/SpillwaveSolutions/langgraph-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "langgraph",
+        "codegen",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "crewai-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/crewai-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a CrewAI hierarchical Crew.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/crewai-ager",
+      "repository": "https://github.com/SpillwaveSolutions/crewai-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "crewai",
+        "codegen",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "claude-agent-sdk-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/claude-agent-sdk-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a Claude Agent SDK lead + subagents project.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/claude-agent-sdk-ager",
+      "repository": "https://github.com/SpillwaveSolutions/claude-agent-sdk-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "claude-agent-sdk",
+        "codegen",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "claude-managed-agents-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/claude-managed-agents-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a Claude Managed Agents YAML manifest.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/claude-managed-agents-ager",
+      "repository": "https://github.com/SpillwaveSolutions/claude-managed-agents-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "managed-agents",
+        "codegen",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "langchain-deep-agents-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/langchain-deep-agents-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into a LangChain Deep Agents project.",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/langchain-deep-agents-ager",
+      "repository": "https://github.com/SpillwaveSolutions/langchain-deep-agents-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "langchain",
+        "deep-agents",
+        "codegen",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "google-adk-ager",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/google-adk-ager"
+      },
+      "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin).",
+      "version": "0.1.1",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/google-adk-ager",
+      "repository": "https://github.com/SpillwaveSolutions/google-adk-ager",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "ager",
+        "okf",
+        "google-adk",
+        "codegen",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
       ]
     }
   ]

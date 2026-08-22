@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0
+
+- Add nine AGER translator plugins to the catalog (v0.1.1).
+
+
 ## 0.3.9
 
 - WikiTicket SDD on ContentPacks/AGER/DEKC; catalog versions to matching tags.
