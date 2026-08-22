@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.3.7"
+    "version": "0.3.8"
   },
   "plugins": [
     {
@@ -17,7 +17,7 @@
         "repo": "SpillwaveSolutions/second-brain-core"
       },
       "description": "Shared OKF schemas, typed edges, deterministic write helpers, ContextPack engine, and a fail-closed 1/4-window token budget.",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "author": {
         "name": "Rick Hightower"
       },
@@ -43,7 +43,7 @@
         "repo": "SpillwaveSolutions/executive-coordination"
       },
       "description": "Chief-of-staff ContentPack: priorities, decisions, blockers, digests, handoffs.",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "author": {
         "name": "Rick Hightower"
       },
@@ -69,7 +69,7 @@
         "repo": "SpillwaveSolutions/account-management"
       },
       "description": "Account and relationship ContentPack: clients, contacts, plans, deliverables, renewals.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
@@ -95,7 +95,7 @@
         "repo": "SpillwaveSolutions/sales-pipeline"
       },
       "description": "Sales pipeline ContentPack: leads, opportunities, stages, objections, forecasts.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
@@ -121,7 +121,7 @@
         "repo": "SpillwaveSolutions/executive-job-search"
       },
       "description": "Executive job-search ContentPack: job leads, roles, interviews, offers, criteria.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
@@ -147,7 +147,7 @@
         "repo": "SpillwaveSolutions/consulting-leads"
       },
       "description": "Inbound consulting-lead ContentPack: engagement types, discovery, scopes, qualification.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
@@ -173,7 +173,7 @@
         "repo": "SpillwaveSolutions/content-media"
       },
       "description": "Content and audience ContentPack: articles, drafts, series, subscribers, metrics.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
@@ -199,7 +199,7 @@
         "repo": "SpillwaveSolutions/news-digest"
       },
       "description": "News digest ContentPack: items, sources, scheduled digests, trends, follow-up candidates.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
@@ -225,7 +225,7 @@
         "repo": "SpillwaveSolutions/gtm-positioning"
       },
       "description": "Go-to-market ContentPack: offers, positioning, ICPs, campaigns, battle cards.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
@@ -251,7 +251,7 @@
         "repo": "SpillwaveSolutions/okf-plugin"
       },
       "description": "Open Knowledge Format graph engine. Shared substrate for every second-brain pack. Fail-closed PostToolUse validate (does not curate).",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "author": {
         "name": "Rick Hightower"
       },
@@ -276,7 +276,7 @@
         "repo": "SpillwaveSolutions/project-knowledge-capture"
       },
       "description": "Project Knowledge Capture. The why second brain: decisions, experiments, rationale. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "author": {
         "name": "Rick Hightower"
       },
@@ -301,7 +301,7 @@
         "repo": "SpillwaveSolutions/system-architecture-capture"
       },
       "description": "System Architecture Capture. The what-is-running second brain. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.4.3",
+      "version": "0.4.4",
       "author": {
         "name": "Rick Hightower"
       },
@@ -326,7 +326,7 @@
         "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
       },
       "description": "Data Engineering Knowledge Capture. The data-plane second brain. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "author": {
         "name": "Rick Hightower"
       },
@@ -376,7 +376,7 @@
         "repo": "SpillwaveSolutions/wiki_ticket_sdd"
       },
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
-      "version": "0.24.2",
+      "version": "0.24.4",
       "author": {
         "name": "Rick Hightower"
       },

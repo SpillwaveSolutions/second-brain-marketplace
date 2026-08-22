@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.8
+
+- Catalog bump: three-host hooks releases (Codex + Cursor-native).
+
+
 ## 0.3.7 — 2026-08-17
 
 - **Cursor host.** Every pack now ships `.cursor-plugin` + `docs/CURSOR.md`.
