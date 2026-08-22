@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.9
+
+- WikiTicket SDD on ContentPacks/AGER/DEKC; catalog versions to matching tags.
+
+
 ## 0.3.8
 
 - Catalog bump: three-host hooks releases (Codex + Cursor-native).
