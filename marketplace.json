@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.0"
+    "version": "0.4.1"
   },
   "plugins": [
     {
@@ -250,8 +250,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/okf-plugin"
       },
-      "description": "Open Knowledge Format graph engine. Shared substrate for every second-brain pack. Fail-closed PostToolUse validate (does not curate).",
-      "version": "0.7.4",
+      "description": "OKF graph engine. Owns Catalog and ContextPack only. Domain nouns live in PKC / SAC / DEKC / AGER. Fail-closed PostToolUse validate.",
+      "version": "0.8.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -275,8 +275,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/project-knowledge-capture"
       },
-      "description": "Project Knowledge Capture. The why second brain: decisions, experiments, rationale. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.7.4",
+      "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
+      "version": "0.8.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -300,8 +300,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/system-architecture-capture"
       },
-      "description": "System Architecture Capture. The what-is-running second brain. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.4.4",
+      "description": "System Architecture Capture. The what-is-running second brain (139 architecture/runtime nouns). Fail-closed 1/4-window ContextPack token budget.",
+      "version": "0.5.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -325,8 +325,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
       },
-      "description": "Data Engineering Knowledge Capture. The data-plane second brain. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.3.5",
+      "description": "Data Engineering Knowledge Capture. The data-plane second brain (29 nouns). Data jobs are IngestionJob, not AGER Workflow. Fail-closed 1/4-window ContextPack token budget.",
+      "version": "0.4.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -350,8 +350,8 @@
         "source": "github",
         "repo": "SpillwaveSolutions/okf-agent-graph"
       },
-      "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs. Local ContextPack with fail-closed 1/4-window token budget.",
-      "version": "0.6.4",
+      "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs. WriteEvent is the write journal, not an AGER noun. Fail-closed 1/4-window ContextPack.",
+      "version": "0.7.0",
       "author": {
         "name": "Rick Hightower"
       },
