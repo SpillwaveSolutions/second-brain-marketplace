@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.1 — 2026-08-24
+
+- Pin foundation packs to the **noun-ownership cut**:
+  - okf-graph-eng **0.8.0** (Catalog + ContextPack only)
+  - project-knowledge-capture **0.8.0** (TicketLink + work types)
+  - system-architecture-capture **0.5.0** (139 architecture nouns)
+  - data-engineering-knowledge-capture **0.4.0** (data plane; jobs are IngestionJob)
+  - okf-agent-graph **0.7.0** (agent/harness nouns; WriteEvent is not AGER)
+- Re-synced `.claude-plugin/marketplace.json` with root `marketplace.json` (had been left at catalog 0.3.7 / 15 plugins after 0.4.0).
+- README: foundation install + `/plugin marketplace update` + `/plugin update` for stale In-use pins.
+
 ## 0.4.0
 
 - Add nine AGER translator plugins to the catalog (v0.1.1).

@@ -10,8 +10,19 @@ MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Cursor**, **Agent
 ## Install the suite
 
 ```bash
-# Claude Code: add the marketplace, then install what you need
+# Claude Code: add (or refresh) the marketplace, then install what you need
 /plugin marketplace add SpillwaveSolutions/second-brain-marketplace
+/plugin marketplace update SpillwaveSolutions/second-brain-marketplace
+
+# Foundation — noun-ownership cut (24 Aug 2026)
+/plugin install okf-graph-eng@spillwave-second-brain
+/plugin install project-knowledge-capture@spillwave-second-brain
+/plugin install system-architecture-capture@spillwave-second-brain
+/plugin install data-engineering-knowledge-capture@spillwave-second-brain
+/plugin install okf-agent-graph@spillwave-second-brain
+/plugin install worklog@spillwave-second-brain
+
+# Shared core + eight job-function ContentPacks
 /plugin install second-brain-core@spillwave-second-brain
 /plugin install executive-coordination@spillwave-second-brain
 /plugin install account-management@spillwave-second-brain
@@ -30,6 +41,31 @@ MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Cursor**, **Agent
 skilz install SpillwaveSolutions/second-brain-core
 skilz install SpillwaveSolutions/content-media
 ```
+
+### Already installed? Refresh pins
+
+Claude Code caches the marketplace snapshot. `/plugin` **Available** can lag GitHub, and **In use** stays on the version you originally installed until you update.
+
+After this catalog (`0.4.1`) the foundation **Available** pins are:
+
+| Pack | Pin |
+|------|-----|
+| `okf-graph-eng` | **0.8.0** |
+| `project-knowledge-capture` | **0.8.0** |
+| `system-architecture-capture` | **0.5.0** |
+| `data-engineering-knowledge-capture` | **0.4.0** |
+| `okf-agent-graph` | **0.7.0** |
+
+```bash
+/plugin marketplace update SpillwaveSolutions/second-brain-marketplace
+/plugin update okf-graph-eng@spillwave-second-brain
+/plugin update project-knowledge-capture@spillwave-second-brain
+/plugin update system-architecture-capture@spillwave-second-brain
+/plugin update data-engineering-knowledge-capture@spillwave-second-brain
+/plugin update okf-agent-graph@spillwave-second-brain
+```
+
+Existing graphs that still have domain nouns in the engine, or data jobs typed `Workflow`: [noun-ownership migration](https://github.com/SpillwaveSolutions/okf-plugin/blob/main/docs/user_guide/noun-ownership-migration.md).
 
 Cursor (including Grok Bot cloud agents):
 
@@ -83,16 +119,18 @@ Rules:
 
 ## Foundation plugins (now in this marketplace)
 
-Install the engineering substrate the same way as a job pack:
+Install the engineering substrate the same way as a job pack. These pins are the 24 Aug 2026 noun-ownership cut.
 
-| Plugin | Repo |
-|--------|------|
-| `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) |
-| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) |
-| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) |
-| `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) |
-| `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) |
-| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) |
+| Plugin | Repo | Pin |
+|--------|------|-----|
+| `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) | **0.8.0** |
+| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.8.0** |
+| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.0** |
+| `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.4.0** |
+| `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.7.0** |
+| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.4 |
+
+Existing second brains: [okf-plugin noun-ownership migration](https://github.com/SpillwaveSolutions/okf-plugin/blob/main/docs/user_guide/noun-ownership-migration.md).
 
 Onboarding for any host: [second-brain-core docs/ONBOARDING.md](https://github.com/SpillwaveSolutions/second-brain-core/blob/main/docs/ONBOARDING.md).
 
