@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.2 — 2026-08-24
+
+- Pin foundation packs to the **migration-guide patch**:
+  - okf-graph-eng **0.8.1**
+  - project-knowledge-capture **0.8.1**
+  - system-architecture-capture **0.5.1**
+  - data-engineering-knowledge-capture **0.4.1**
+  - okf-agent-graph **0.7.1**
+- Catalog metadata **0.4.2**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
+
 ## 0.4.1 — 2026-08-24
 
 - Pin foundation packs to the **noun-ownership cut**:
