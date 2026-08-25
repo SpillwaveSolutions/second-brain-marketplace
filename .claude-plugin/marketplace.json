@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.2"
+    "version": "0.4.3"
   },
   "plugins": [
     {
@@ -326,7 +326,7 @@
         "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
       },
       "description": "Data Engineering Knowledge Capture. The data-plane second brain (29 nouns). Data jobs are IngestionJob, not AGER Workflow. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "author": {
         "name": "Rick Hightower"
       },

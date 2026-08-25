@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.3 — 2026-08-24
+
+- Pin **data-engineering-knowledge-capture 0.4.2** (Fabric reverse-engineering walk fixes: [#44](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/issues/44) / [#45](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/pull/45)).
+- Catalog metadata **0.4.3**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Other foundation pins unchanged (okf-graph-eng 0.8.1, PKC 0.8.1, SAC 0.5.1, AGER 0.7.1).
+
+
 ## 0.4.2 — 2026-08-24
 
 - Pin foundation packs to the **migration-guide patch**:
