@@ -7,651 +7,296 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.4"
+    "version": "0.4.5"
   },
   "plugins": [
     {
       "name": "second-brain-core",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/second-brain-core"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/second-brain-core"},
       "description": "Shared OKF schemas, typed edges, deterministic write helpers, ContextPack engine, and a fail-closed 1/4-window token budget.",
       "version": "0.3.7",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/second-brain-core",
       "repository": "https://github.com/SpillwaveSolutions/second-brain-core",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "sbc",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "sbc", "cursor"]
     },
     {
       "name": "executive-coordination",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/executive-coordination"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/executive-coordination"},
       "description": "Chief-of-staff ContentPack: priorities, decisions, blockers, digests, handoffs.",
       "version": "0.3.5",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/executive-coordination",
       "repository": "https://github.com/SpillwaveSolutions/executive-coordination",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "exc",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "exc", "cursor"]
     },
     {
       "name": "account-management",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/account-management"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/account-management"},
       "description": "Account and relationship ContentPack: clients, contacts, plans, deliverables, renewals.",
       "version": "0.3.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/account-management",
       "repository": "https://github.com/SpillwaveSolutions/account-management",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "acm",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "acm", "cursor"]
     },
     {
       "name": "sales-pipeline",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/sales-pipeline"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/sales-pipeline"},
       "description": "Sales pipeline ContentPack: leads, opportunities, stages, objections, forecasts.",
       "version": "0.3.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/sales-pipeline",
       "repository": "https://github.com/SpillwaveSolutions/sales-pipeline",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "spl",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "spl", "cursor"]
     },
     {
       "name": "executive-job-search",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/executive-job-search"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/executive-job-search"},
       "description": "Executive job-search ContentPack: job leads, roles, interviews, offers, criteria.",
       "version": "0.3.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/executive-job-search",
       "repository": "https://github.com/SpillwaveSolutions/executive-job-search",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "ejs",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "ejs", "cursor"]
     },
     {
       "name": "consulting-leads",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/consulting-leads"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/consulting-leads"},
       "description": "Inbound consulting-lead ContentPack: engagement types, discovery, scopes, qualification.",
       "version": "0.3.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/consulting-leads",
       "repository": "https://github.com/SpillwaveSolutions/consulting-leads",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "csl",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "csl", "cursor"]
     },
     {
       "name": "content-media",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/content-media"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/content-media"},
       "description": "Content and audience ContentPack: articles, drafts, series, subscribers, metrics.",
       "version": "0.3.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/content-media",
       "repository": "https://github.com/SpillwaveSolutions/content-media",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cme",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "cme", "cursor"]
     },
     {
       "name": "news-digest",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/news-digest"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/news-digest"},
       "description": "News digest ContentPack: items, sources, scheduled digests, trends, follow-up candidates.",
       "version": "0.3.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/news-digest",
       "repository": "https://github.com/SpillwaveSolutions/news-digest",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "nwd",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "nwd", "cursor"]
     },
     {
       "name": "gtm-positioning",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/gtm-positioning"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/gtm-positioning"},
       "description": "Go-to-market ContentPack: offers, positioning, ICPs, campaigns, battle cards.",
       "version": "0.3.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/gtm-positioning",
       "repository": "https://github.com/SpillwaveSolutions/gtm-positioning",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "content-pack",
-        "second-brain",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "gtm",
-        "cursor"
-      ]
+      "keywords": ["okf", "content-pack", "second-brain", "claude-code", "grok-build", "codex", "gtm", "cursor"]
     },
     {
       "name": "okf-graph-eng",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/okf-plugin"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/okf-plugin"},
       "description": "OKF graph engine. Owns Catalog and ContextPack only. Domain nouns live in PKC / SAC / DEKC / AGER. Fail-closed PostToolUse validate.",
       "version": "0.8.2",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/okf-plugin",
       "repository": "https://github.com/SpillwaveSolutions/okf-plugin",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "graph",
-        "foundation",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor"
-      ]
+      "keywords": ["okf", "graph", "foundation", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "project-knowledge-capture",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/project-knowledge-capture"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/project-knowledge-capture"},
       "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
       "version": "0.9.0",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "pkc",
-        "foundation",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor"
-      ]
+      "keywords": ["okf", "pkc", "foundation", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "system-architecture-capture",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/system-architecture-capture"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/system-architecture-capture"},
       "description": "System Architecture Capture. The what-is-running second brain (139 architecture/runtime nouns). Fail-closed 1/4-window ContextPack token budget.",
       "version": "0.5.2",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/system-architecture-capture",
       "repository": "https://github.com/SpillwaveSolutions/system-architecture-capture",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "sac",
-        "foundation",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor"
-      ]
+      "keywords": ["okf", "sac", "foundation", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "data-engineering-knowledge-capture",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"},
       "description": "Data Engineering Knowledge Capture. The data-plane second brain (29 nouns). Data jobs are IngestionJob, not AGER Workflow. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.4.3",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "version": "0.5.0",
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "dekc",
-        "foundation",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor"
-      ]
+      "keywords": ["okf", "dekc", "foundation", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "okf-agent-graph",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/okf-agent-graph"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/okf-agent-graph"},
       "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs. WriteEvent is the write journal, not an AGER noun. Fail-closed 1/4-window ContextPack.",
       "version": "0.7.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/okf-agent-graph",
       "repository": "https://github.com/SpillwaveSolutions/okf-agent-graph",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "ager",
-        "foundation",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor"
-      ]
+      "keywords": ["okf", "ager", "foundation", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "worklog",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/wiki_ticket_sdd"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/wiki_ticket_sdd"},
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
       "version": "0.24.4",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
       "repository": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
       "license": "MIT",
       "category": "productivity",
-      "keywords": [
-        "okf",
-        "worklog",
-        "foundation",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor"
-      ]
+      "keywords": ["okf", "worklog", "foundation", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "claude-code-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/claude-code-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/claude-code-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a Claude Code plugin (skills, agents, commands, hooks).",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/claude-code-ager",
       "repository": "https://github.com/SpillwaveSolutions/claude-code-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "claude-code",
-        "codegen",
-        "grok-build",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "claude-code", "codegen", "grok-build", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "grok-build-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/grok-build-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/grok-build-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a Grok Build plugin.",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/grok-build-ager",
       "repository": "https://github.com/SpillwaveSolutions/grok-build-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "grok-build",
-        "codegen",
-        "claude-code",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "grok-build", "codegen", "claude-code", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "codex-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/codex-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/codex-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a Codex plugin.",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/codex-ager",
       "repository": "https://github.com/SpillwaveSolutions/codex-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "codex",
-        "codegen",
-        "claude-code",
-        "grok-build",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "codex", "codegen", "claude-code", "grok-build", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "langgraph-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/langgraph-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/langgraph-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a LangGraph StateGraph.",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/langgraph-ager",
       "repository": "https://github.com/SpillwaveSolutions/langgraph-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "langgraph",
-        "codegen",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "langgraph", "codegen", "claude-code", "grok-build", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "crewai-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/crewai-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/crewai-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a CrewAI hierarchical Crew.",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/crewai-ager",
       "repository": "https://github.com/SpillwaveSolutions/crewai-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "crewai",
-        "codegen",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "crewai", "codegen", "claude-code", "grok-build", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "claude-agent-sdk-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/claude-agent-sdk-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/claude-agent-sdk-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a Claude Agent SDK lead + subagents project.",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/claude-agent-sdk-ager",
       "repository": "https://github.com/SpillwaveSolutions/claude-agent-sdk-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "claude-agent-sdk",
-        "codegen",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "claude-agent-sdk", "codegen", "claude-code", "grok-build", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "claude-managed-agents-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/claude-managed-agents-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/claude-managed-agents-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a Claude Managed Agents YAML manifest.",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/claude-managed-agents-ager",
       "repository": "https://github.com/SpillwaveSolutions/claude-managed-agents-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "managed-agents",
-        "codegen",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "managed-agents", "codegen", "claude-code", "grok-build", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "langchain-deep-agents-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/langchain-deep-agents-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/langchain-deep-agents-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into a LangChain Deep Agents project.",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/langchain-deep-agents-ager",
       "repository": "https://github.com/SpillwaveSolutions/langchain-deep-agents-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "langchain",
-        "deep-agents",
-        "codegen",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "langchain", "deep-agents", "codegen", "claude-code", "grok-build", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     },
     {
       "name": "google-adk-ager",
-      "source": {
-        "source": "github",
-        "repo": "SpillwaveSolutions/google-adk-ager"
-      },
+      "source": {"source": "github", "repo": "SpillwaveSolutions/google-adk-ager"},
       "description": "Translate a validated AGER/OKF AgentGraph into Google ADK (Python, TypeScript, Go, Java, Kotlin).",
       "version": "0.1.1",
-      "author": {
-        "name": "Rick Hightower"
-      },
+      "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/google-adk-ager",
       "repository": "https://github.com/SpillwaveSolutions/google-adk-ager",
       "license": "MIT",
       "category": "development",
-      "keywords": [
-        "ager",
-        "okf",
-        "google-adk",
-        "codegen",
-        "claude-code",
-        "grok-build",
-        "codex",
-        "cursor",
-        "agent-plugins",
-        "worklog",
-        "wiki-ticket-sdd"
-      ]
+      "keywords": ["ager", "okf", "google-adk", "codegen", "claude-code", "grok-build", "codex", "cursor", "agent-plugins", "worklog", "wiki-ticket-sdd"]
     }
   ]
 }
