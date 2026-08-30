@@ -46,14 +46,14 @@ skilz install SpillwaveSolutions/content-media
 
 Claude Code caches the marketplace snapshot. `/plugin` **Available** can lag GitHub, and **In use** stays on the version you originally installed until you update.
 
-After this catalog (`0.4.3`) the foundation **Available** pins are:
+After this catalog (`0.4.4`) the foundation **Available** pins are:
 
 | Pack | Pin |
 |------|-----|
-| `okf-graph-eng` | **0.8.1** |
-| `project-knowledge-capture` | **0.8.1** |
-| `system-architecture-capture` | **0.5.1** |
-| `data-engineering-knowledge-capture` | **0.4.2** |
+| `okf-graph-eng` | **0.8.2** |
+| `project-knowledge-capture` | **0.9.0** |
+| `system-architecture-capture` | **0.5.2** |
+| `data-engineering-knowledge-capture` | **0.4.3** |
 | `okf-agent-graph` | **0.7.1** |
 
 ```bash
@@ -119,14 +119,14 @@ Rules:
 
 ## Foundation plugins (now in this marketplace)
 
-Install the engineering substrate the same way as a job pack. These pins are the 24 Aug 2026 noun-ownership cut.
+Install the engineering substrate the same way as a job pack. These pins are the 30 Aug 2026 retrieval-ladder cut.
 
 | Plugin | Repo | Pin |
 |--------|------|-----|
-| `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) | **0.8.1** |
-| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.8.1** |
-| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.1** |
-| `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.4.2** |
+| `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) | **0.8.2** |
+| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.9.0** |
+| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.2** |
+| `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.4.3** |
 | `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.7.1** |
 | `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.4 |
 

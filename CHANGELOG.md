@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.4 — 2026-08-30
+
+- Pin foundation packs to the **retrieval-ladder** releases (Git + Markdown stays source of truth; rg / SQLite FTS5 are disposable accelerators):
+  - okf-graph-eng **0.8.2** ([rg-backed backlinks](https://github.com/SpillwaveSolutions/okf-plugin/releases/tag/v0.8.2))
+  - project-knowledge-capture **0.9.0** ([rg prefilter + SQLite/FTS5 index](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.9.0))
+  - system-architecture-capture **0.5.2** ([rg prefilter for search](https://github.com/SpillwaveSolutions/system-architecture-capture/releases/tag/v0.5.2))
+  - data-engineering-knowledge-capture **0.4.3** ([doctor toolchain: rg / FTS5](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/releases/tag/v0.4.3))
+- Catalog metadata **0.4.4**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Other foundation pins unchanged (okf-agent-graph 0.7.1, worklog 0.24.4). research-graph is not in this catalog.
+
+
 ## 0.4.3 — 2026-08-24
 
 - Pin **data-engineering-knowledge-capture 0.4.2** (Fabric reverse-engineering walk fixes: [#44](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/issues/44) / [#45](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/pull/45)).
