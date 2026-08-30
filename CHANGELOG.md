@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.6 — 2026-08-30
+
+- Pin **project-knowledge-capture 0.9.1** (retrieval-ladder patch: cold index no longer O(N²); index search no longer `Path.resolve()`s the universe; setup consent test is PATH-isolated).
+  - Release: [v0.9.1](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.9.1)
+  - Merge: [project-knowledge-capture#68](https://github.com/SpillwaveSolutions/project-knowledge-capture/pull/68) / [#67](https://github.com/SpillwaveSolutions/project-knowledge-capture/pull/67)
+- Pin **system-architecture-capture 0.5.3** (rg-backed pack inbound).
+  - Release: [v0.5.3](https://github.com/SpillwaveSolutions/system-architecture-capture/releases/tag/v0.5.3)
+  - Merge: [system-architecture-capture#34](https://github.com/SpillwaveSolutions/system-architecture-capture/pull/34)
+- Catalog metadata **0.4.6**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Other foundation pins unchanged (okf-graph-eng 0.8.2, DEKC 0.5.0, AGER 0.7.1, worklog 0.24.4).
+
 ## 0.4.5 — 2026-08-30
 
 - Pin **data-engineering-knowledge-capture 0.5.0** (retrieval ladder: disposable SQLite/FTS5 index + ripgrep prefilter; JSON `knowledge/.index/` removed).

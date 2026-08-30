@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.5"
+    "version": "0.4.6"
   },
   "plugins": [
     {
@@ -134,7 +134,7 @@
       "name": "project-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/project-knowledge-capture"},
       "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
@@ -146,7 +146,7 @@
       "name": "system-architecture-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/system-architecture-capture"},
       "description": "System Architecture Capture. The what-is-running second brain (139 architecture/runtime nouns). Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.5.2",
+      "version": "0.5.3",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/system-architecture-capture",
       "repository": "https://github.com/SpillwaveSolutions/system-architecture-capture",
