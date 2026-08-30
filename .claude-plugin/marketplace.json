@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.3"
+    "version": "0.4.4"
   },
   "plugins": [
     {
@@ -251,7 +251,7 @@
         "repo": "SpillwaveSolutions/okf-plugin"
       },
       "description": "OKF graph engine. Owns Catalog and ContextPack only. Domain nouns live in PKC / SAC / DEKC / AGER. Fail-closed PostToolUse validate.",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "author": {
         "name": "Rick Hightower"
       },
@@ -276,7 +276,7 @@
         "repo": "SpillwaveSolutions/project-knowledge-capture"
       },
       "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.8.1",
+      "version": "0.9.0",
       "author": {
         "name": "Rick Hightower"
       },
@@ -301,7 +301,7 @@
         "repo": "SpillwaveSolutions/system-architecture-capture"
       },
       "description": "System Architecture Capture. The what-is-running second brain (139 architecture/runtime nouns). Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "author": {
         "name": "Rick Hightower"
       },
@@ -326,7 +326,7 @@
         "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"
       },
       "description": "Data Engineering Knowledge Capture. The data-plane second brain (29 nouns). Data jobs are IngestionJob, not AGER Workflow. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "author": {
         "name": "Rick Hightower"
       },
