@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.5 — 2026-08-30
+
+- Pin **data-engineering-knowledge-capture 0.5.0** (retrieval ladder: disposable SQLite/FTS5 index + ripgrep prefilter; JSON `knowledge/.index/` removed).
+  - Release: [v0.5.0](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/releases/tag/v0.5.0)
+  - Merge: [data-engineering-knowledge-capture#49](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/pull/49)
+- Catalog metadata **0.4.5**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Other foundation pins unchanged (okf-graph-eng 0.8.2, PKC 0.9.0, SAC 0.5.2, AGER 0.7.1, worklog 0.24.4).
+
 ## 0.4.4 — 2026-08-30
 
 - Pin foundation packs to the **retrieval-ladder** releases (Git + Markdown stays source of truth; rg / SQLite FTS5 are disposable accelerators):
