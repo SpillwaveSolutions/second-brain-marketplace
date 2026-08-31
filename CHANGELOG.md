@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.4.7 — 2026-08-31
+
+Catalog and rg correctness across the three capture plugins. All three carried
+the same two defects: a YAML scalar title (`title: 421`) crashed catalog
+rendering after concepts had already been written, and the rg-backed reverse
+index silently dropped edges when the bundle was addressed through a symlink,
+while still reporting `reverse_index: rg`.
+
+- Pin **project-knowledge-capture 0.9.3** (both fixes; PKC has two catalog renderers, both patched).
+  - Release: [v0.9.3](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.9.3)
+  - Merge: [project-knowledge-capture#75](https://github.com/SpillwaveSolutions/project-knowledge-capture/pull/75) / [#74](https://github.com/SpillwaveSolutions/project-knowledge-capture/pull/74)
+- Pin **system-architecture-capture 0.5.4** (both fixes; found first here).
+  - Release: [v0.5.4](https://github.com/SpillwaveSolutions/system-architecture-capture/releases/tag/v0.5.4)
+  - Merge: [system-architecture-capture#39](https://github.com/SpillwaveSolutions/system-architecture-capture/pull/39) / [#38](https://github.com/SpillwaveSolutions/system-architecture-capture/pull/38) / [#37](https://github.com/SpillwaveSolutions/system-architecture-capture/pull/37)
+- Pin **data-engineering-knowledge-capture 0.5.1** (both fixes).
+  - Release: [v0.5.1](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/releases/tag/v0.5.1)
+  - Merge: [data-engineering-knowledge-capture#54](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/pull/54) / [#53](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/pull/53)
+- Catalog metadata **0.4.7**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Other foundation pins unchanged (okf-graph-eng 0.8.2, AGER 0.7.1, worklog 0.24.4). AGER, RKC, and WikiTicket SDD were checked for both defects and carry neither: AGER and RKC render no catalog labels from frontmatter titles and use no rg reverse index, and okf-graph-eng resolves the bundle path in `main()` before the rg backlink path is reached.
+
 ## 0.4.6 — 2026-08-30
 
 - Pin **project-knowledge-capture 0.9.1** (retrieval-ladder patch: cold index no longer O(N²); index search no longer `Path.resolve()`s the universe; setup consent test is PATH-isolated).
