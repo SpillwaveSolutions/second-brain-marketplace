@@ -1,0 +1,49 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  # Pins go stale without anyone touching this repo: an upstream release lands
+  # and the catalog silently keeps naming the old one. Nothing here would ever
+  # run to notice, so the schedule is the only check that catches that case.
+  schedule:
+    - cron: "17 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Offline and instant. Kept separate from `pins` so a broken manifest
+      # reports as a broken manifest, not as 24 GitHub errors downstream.
+      - name: Catalog structure
+        run: python3 scripts/check_catalog.py
+
+  pins:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Every source repo is public, so the default token reads their releases.
+      # It is passed for the rate limit, not for access: unauthenticated is 60
+      # requests an hour and this makes one per plugin.
+      - name: Pins match upstream releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/check_catalog.py --pins
