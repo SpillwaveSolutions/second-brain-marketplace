@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.8 — 2026-09-01
+
+Pin catch-up for the two foundation plugins the 0.4.7 pass deliberately held.
+Neither carried the catalog or rg defects, so 0.4.7 left them alone, and both
+pins then fell behind their own published releases. No plugin code changes here.
+The catalog now names the release each plugin actually ships.
+
+- Pin **okf-agent-graph 0.8.1** (was 0.7.1, two releases behind: plugin discovery for Claude, Grok, Codex, and Agent Plugins 1.0, then nested bundle links and a quieter AGKC scan).
+  - Release: [v0.8.1](https://github.com/SpillwaveSolutions/okf-agent-graph/releases/tag/v0.8.1) / [v0.8.0](https://github.com/SpillwaveSolutions/okf-agent-graph/releases/tag/v0.8.0)
+- Pin **worklog 0.24.9** (was 0.24.4, five patches behind: mermaid-first design docs, Claude Code packaging pins, silent-skip gates, then 0.24.8 and 0.24.9).
+  - Release: [v0.24.9](https://github.com/SpillwaveSolutions/wiki_ticket_sdd/releases/tag/v0.24.9)
+- Catalog metadata **0.4.8**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Every other pin verified against its latest non-draft, non-prerelease upstream release and left unchanged. The catalog now matches upstream on all 24 plugins.
+
 ## 0.4.7 — 2026-08-31
 
 Catalog and rg correctness across the three capture plugins. All three carried
