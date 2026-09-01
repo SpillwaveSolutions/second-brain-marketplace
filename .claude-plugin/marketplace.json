@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.7"
+    "version": "0.4.8"
   },
   "plugins": [
     {
@@ -170,7 +170,7 @@
       "name": "okf-agent-graph",
       "source": {"source": "github", "repo": "SpillwaveSolutions/okf-agent-graph"},
       "description": "AGER: Orchestrator / Doer / Judge / Synthesizer loops as OKF graphs. WriteEvent is the write journal, not an AGER noun. Fail-closed 1/4-window ContextPack.",
-      "version": "0.7.1",
+      "version": "0.8.1",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/okf-agent-graph",
       "repository": "https://github.com/SpillwaveSolutions/okf-agent-graph",
@@ -182,7 +182,7 @@
       "name": "worklog",
       "source": {"source": "github", "repo": "SpillwaveSolutions/wiki_ticket_sdd"},
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
-      "version": "0.24.4",
+      "version": "0.24.9",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
       "repository": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
