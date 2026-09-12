@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.12 — 2026-09-12
+
+Pin **data-engineering-knowledge-capture 0.5.3** (plan-and-fan-out orch/ELT). Capture-time
+reverse-engineering now plans first, then fans out signal-gated orchestration and ELT
+walkers. Query-time `data-retriever` is unchanged. No other pins change.
+
+- Pin **data-engineering-knowledge-capture 0.5.3** (plan-and-fan-out orch/ELT).
+  - Release: [v0.5.3](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/releases/tag/v0.5.3)
+  - Merge: [data-engineering-knowledge-capture#56](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/pull/56)
+- Catalog metadata **0.4.12**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.11 — 2026-09-12
 
 Pin **system-architecture-capture 0.5.6** (plan-then-fan-out walkers). Capture-time
