@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-second-brain",
-  "description": "Spillwave second-brain suite plus AGER translators. Foundation (OKF / PKC / SAC / DEKC / RKC / AGER / WikiTicket), eight ContentPacks, and framework translators. Cursor is a first-class host.",
+  "description": "Spillwave second-brain suite plus AGER translators. Foundation (OKF / PKC / SAC / DEKC / RKC / AGER / WikiTicket / OTS / Pointers), eight ContentPacks, and framework translators. Cursor is a first-class host.",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.12"
+    "version": "0.4.13"
   },
   "plugins": [
     {
@@ -201,6 +201,30 @@
       "license": "MIT",
       "category": "productivity",
       "keywords": ["okf", "worklog", "foundation", "claude-code", "grok-build", "codex", "cursor"]
+    },
+    {
+      "name": "okf-time-series",
+      "source": {"source": "github", "repo": "SpillwaveSolutions/okf-time-series"},
+      "description": "OKF Time Series (OTS). Chronological spine for agent memory: Session → Hour → Day → Week → Month → Year. Snapshot-first telemetry; install is not capture.",
+      "version": "0.3.2",
+      "author": {"name": "Rick Hightower"},
+      "homepage": "https://github.com/SpillwaveSolutions/okf-time-series",
+      "repository": "https://github.com/SpillwaveSolutions/okf-time-series",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["okf", "ots", "foundation", "time-series", "claude-code", "grok-build", "codex", "cursor"]
+    },
+    {
+      "name": "okf-pointers",
+      "source": {"source": "github", "repo": "SpillwaveSolutions/okf-pointers"},
+      "description": "OKF Pointers. Git-native join plane: Link is a sibling of TypedEdge (link_type, not rel). Closed inverse taxonomy. Endpoints are never mutated. Not a search index.",
+      "version": "0.2.0",
+      "author": {"name": "Rick Hightower"},
+      "homepage": "https://github.com/SpillwaveSolutions/okf-pointers",
+      "repository": "https://github.com/SpillwaveSolutions/okf-pointers",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["okf", "pointers", "foundation", "join", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "claude-code-ager",

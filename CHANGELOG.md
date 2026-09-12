@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.13 — 2026-09-12
+
+Add **okf-time-series** and **okf-pointers** as foundation packs. OTS is
+snapshot-first telemetry (install is not capture). Pointers is the join plane:
+`Link` is a sibling of `TypedEdge`. `okf-remote` stays out of this cut.
+
+- Add **okf-time-series 0.3.2** (OTS). Snapshot-first telemetry: `sessions/.source.jsonl` is the immutable vendor copy; opt-in via `.okf-history` or `ots-tail opt-in`. Two summarize editions. Pointers overnight batch and Langfuse remain out of scope.
+  - Release: [v0.3.2](https://github.com/SpillwaveSolutions/okf-time-series/releases/tag/v0.3.2)
+- Add **okf-pointers 0.2.0**. Join plane: `Link` is a sibling of `TypedEdge` (`link_type`, not `rel`). Closed inverse taxonomy. Endpoints are never mutated.
+  - Release: [v0.2.0](https://github.com/SpillwaveSolutions/okf-pointers/releases/tag/v0.2.0)
+- Catalog metadata **0.4.13**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Follow-up: `okf-remote` is not pinned here.
+
 ## 0.4.12 — 2026-09-12
 
 Pin **data-engineering-knowledge-capture 0.5.3** (plan-and-fan-out orch/ELT). Capture-time

@@ -22,6 +22,8 @@ MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Cursor**, **Agent
 /plugin install research-knowledge-capture@spillwave-second-brain
 /plugin install okf-agent-graph@spillwave-second-brain
 /plugin install worklog@spillwave-second-brain
+/plugin install okf-time-series@spillwave-second-brain
+/plugin install okf-pointers@spillwave-second-brain
 
 # Shared core + eight job-function ContentPacks
 /plugin install second-brain-core@spillwave-second-brain
@@ -47,7 +49,7 @@ skilz install SpillwaveSolutions/content-media
 
 Claude Code caches the marketplace snapshot. `/plugin` **Available** can lag GitHub, and **In use** stays on the version you originally installed until you update.
 
-After this catalog (`0.4.12`) the foundation **Available** pins are:
+After this catalog (`0.4.13`) the foundation **Available** pins are:
 
 | Pack | Pin |
 |------|-----|
@@ -58,6 +60,8 @@ After this catalog (`0.4.12`) the foundation **Available** pins are:
 | `data-engineering-knowledge-capture` | **0.5.3** |
 | `research-knowledge-capture` | **0.2.7** |
 | `okf-agent-graph` | **0.8.1** |
+| `okf-time-series` | **0.3.2** |
+| `okf-pointers` | **0.2.0** |
 
 ```bash
 /plugin marketplace update SpillwaveSolutions/second-brain-marketplace
@@ -68,6 +72,8 @@ After this catalog (`0.4.12`) the foundation **Available** pins are:
 /plugin update data-engineering-knowledge-capture@spillwave-second-brain
 /plugin update research-knowledge-capture@spillwave-second-brain
 /plugin update okf-agent-graph@spillwave-second-brain
+/plugin update okf-time-series@spillwave-second-brain
+/plugin update okf-pointers@spillwave-second-brain
 ```
 
 Existing graphs that still have domain nouns in the engine, or data jobs typed `Workflow`: [noun-ownership migration](https://github.com/SpillwaveSolutions/okf-plugin/blob/main/docs/user_guide/noun-ownership-migration.md).
@@ -124,7 +130,7 @@ Rules:
 
 ## Foundation plugins (now in this marketplace)
 
-Install the engineering substrate the same way as a job pack. These pins are the 12 Sep 2026 query-time retriever cut.
+Install the engineering substrate the same way as a job pack. These pins are the 12 Sep 2026 cut: query-time retrievers, plus OTS snapshot-first telemetry and the pointers join plane.
 
 | Plugin | Repo | Pin |
 |--------|------|-----|
@@ -136,8 +142,12 @@ Install the engineering substrate the same way as a job pack. These pins are the
 | `research-knowledge-capture` | [research-knowledge-capture](https://github.com/SpillwaveSolutions/research-knowledge-capture) | **0.2.7** |
 | `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.8.1** |
 | `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.10 |
+| `okf-time-series` | [okf-time-series](https://github.com/SpillwaveSolutions/okf-time-series) | **0.3.2** |
+| `okf-pointers` | [okf-pointers](https://github.com/SpillwaveSolutions/okf-pointers) | **0.2.0** |
 
 For Q&A, the parent spawns a `*-retriever` child (`knowledge-retriever` / `architecture-retriever` / `data-retriever` / `research-retriever`) and keeps a summary card. Do not pack inline in the parent for Q&A. The contract lives in second-brain-core **0.3.8** (`docs/RETRIEVAL.md`; `sbc_common.py pack --tiny --summary`).
+
+OTS is snapshot-first telemetry (install is not capture). Pointers is the join plane: `Link` is a sibling of `TypedEdge`. `okf-remote` is not in this catalog.
 
 Existing second brains: [okf-plugin noun-ownership migration](https://github.com/SpillwaveSolutions/okf-plugin/blob/main/docs/user_guide/noun-ownership-migration.md).
 
@@ -153,12 +163,14 @@ Onboarding for any host: [second-brain-core docs/ONBOARDING.md](https://github.c
 - [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) - Open Knowledge Format graph engine.
 - [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) - AGER orchestrator / doer / judge / synthesizer.
 - [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) - Visible work log. Append-only ULID JSONL plus fold.
+- [okf-time-series](https://github.com/SpillwaveSolutions/okf-time-series) - Chronological spine. Snapshot-first telemetry.
+- [okf-pointers](https://github.com/SpillwaveSolutions/okf-pointers) - Join plane. `Link` is a sibling of `TypedEdge`.
 
 ## Onboarding a Grok Bot
 
 Each plugin now ships `docs/ONBOARDING.md`. Give a new Grok Bot that file first. It covers:
 
-- History of the LLM-wiki / second-brain effort (OKF, WikiTicket, PKC, SAC, DEKC, RKC, AGER, ContentPacks)
+- History of the LLM-wiki / second-brain effort (OKF, WikiTicket, PKC, SAC, DEKC, RKC, AGER, OTS, Pointers, ContentPacks)
 - Destination state: cloud Grok Bots and local laptop agents reading and writing the same git-native tree
 - Identity, isolation, deterministic write boundary, progressive disclosure
 - Every public repository in this suite plus the foundation layer
