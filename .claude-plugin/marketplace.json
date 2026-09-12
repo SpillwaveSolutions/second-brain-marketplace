@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.10"
+    "version": "0.4.11"
   },
   "plugins": [
     {
@@ -146,7 +146,7 @@
       "name": "system-architecture-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/system-architecture-capture"},
       "description": "System Architecture Capture. The what-is-running second brain (139 architecture/runtime nouns). Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.5.5",
+      "version": "0.5.6",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/system-architecture-capture",
       "repository": "https://github.com/SpillwaveSolutions/system-architecture-capture",
