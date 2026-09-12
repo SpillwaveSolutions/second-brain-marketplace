@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.4.14 — 2026-09-12
+
+Pin **okf-time-series 0.3.3** (dogfood gates). Sample fix, opt-in path
+printing, `ots smoke`, and cheap-model fail-closed. `okf-pointers` stays
+**0.2.0**. No other pins change.
+
+- Pin **okf-time-series 0.3.3** (dogfood gates).
+  - Sample: no `.telemetry.md`; hour rollover keeps the same slug (no `__002`).
+  - `status`/`check` print walked `.okf-history` paths on `not_opted_in`.
+  - `ots smoke` — check → once → tick → summarize --stub → check.
+  - Setup fails closed on non-pin models (Sonnet/Sol/Terra/…).
+  - Installers must open `plugin.json` and confirm **0.3.3**. 0.3.1 is the killed emit-schema path.
+  - Release: [v0.3.3](https://github.com/SpillwaveSolutions/okf-time-series/releases/tag/v0.3.3)
+- `okf-pointers` stays **0.2.0**.
+- Catalog metadata **0.4.14**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.13 — 2026-09-12
 
 Add **okf-time-series** and **okf-pointers** as foundation packs. OTS is

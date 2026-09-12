@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.13"
+    "version": "0.4.14"
   },
   "plugins": [
     {
@@ -206,7 +206,7 @@
       "name": "okf-time-series",
       "source": {"source": "github", "repo": "SpillwaveSolutions/okf-time-series"},
       "description": "OKF Time Series (OTS). Chronological spine for agent memory: Session → Hour → Day → Week → Month → Year. Snapshot-first telemetry; install is not capture.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/okf-time-series",
       "repository": "https://github.com/SpillwaveSolutions/okf-time-series",
