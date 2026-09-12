@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.11 — 2026-09-12
+
+Pin **system-architecture-capture 0.5.6** (plan-then-fan-out walkers). Capture-time
+reverse-engineering now plans first, then fans out signal-gated language and IaC
+walkers. Query-time `architecture-retriever` is unchanged. No other pins change.
+
+- Pin **system-architecture-capture 0.5.6** (plan-then-fan-out walkers).
+  - Release: [v0.5.6](https://github.com/SpillwaveSolutions/system-architecture-capture/releases/tag/v0.5.6)
+  - Merge: [system-architecture-capture#42](https://github.com/SpillwaveSolutions/system-architecture-capture/pull/42)
+- Catalog metadata **0.4.11**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.10 — 2026-09-12
 
 Pin **second-brain-core 0.3.8** now that the query-time retrieval contract is
