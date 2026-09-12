@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.10 — 2026-09-12
+
+Pin **second-brain-core 0.3.8** now that the query-time retrieval contract is
+published. Parent agents keep a Retrieval card; `sbc_common.py pack --tiny
+--summary` is the compact pack. Pack-specific `*-retriever` agents stay in
+PKC / SAC / DEKC / RKC. No other pins change.
+
+- Pin **second-brain-core 0.3.8** (retrieval contract + `pack --tiny --summary`).
+  - Release: [v0.3.8](https://github.com/SpillwaveSolutions/second-brain-core/releases/tag/v0.3.8)
+- Catalog metadata **0.4.10**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.9 — 2026-09-12
 
 Query-time retriever pin bump, plus Research Knowledge Capture as a foundation pack.

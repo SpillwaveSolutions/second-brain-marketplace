@@ -7,14 +7,14 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.9"
+    "version": "0.4.10"
   },
   "plugins": [
     {
       "name": "second-brain-core",
       "source": {"source": "github", "repo": "SpillwaveSolutions/second-brain-core"},
       "description": "Shared OKF schemas, typed edges, deterministic write helpers, ContextPack engine, and a fail-closed 1/4-window token budget.",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/second-brain-core",
       "repository": "https://github.com/SpillwaveSolutions/second-brain-core",

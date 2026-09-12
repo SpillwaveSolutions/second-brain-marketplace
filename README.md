@@ -47,10 +47,11 @@ skilz install SpillwaveSolutions/content-media
 
 Claude Code caches the marketplace snapshot. `/plugin` **Available** can lag GitHub, and **In use** stays on the version you originally installed until you update.
 
-After this catalog (`0.4.9`) the foundation **Available** pins are:
+After this catalog (`0.4.10`) the foundation **Available** pins are:
 
 | Pack | Pin |
 |------|-----|
+| `second-brain-core` | **0.3.8** |
 | `okf-graph-eng` | **0.8.2** |
 | `project-knowledge-capture` | **0.9.4** |
 | `system-architecture-capture` | **0.5.5** |
@@ -60,6 +61,7 @@ After this catalog (`0.4.9`) the foundation **Available** pins are:
 
 ```bash
 /plugin marketplace update SpillwaveSolutions/second-brain-marketplace
+/plugin update second-brain-core@spillwave-second-brain
 /plugin update okf-graph-eng@spillwave-second-brain
 /plugin update project-knowledge-capture@spillwave-second-brain
 /plugin update system-architecture-capture@spillwave-second-brain
@@ -126,6 +128,7 @@ Install the engineering substrate the same way as a job pack. These pins are the
 
 | Plugin | Repo | Pin |
 |--------|------|-----|
+| `second-brain-core` | [second-brain-core](https://github.com/SpillwaveSolutions/second-brain-core) | **0.3.8** |
 | `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) | **0.8.2** |
 | `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.9.4** |
 | `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.5** |
@@ -134,7 +137,7 @@ Install the engineering substrate the same way as a job pack. These pins are the
 | `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.8.1** |
 | `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.10 |
 
-For Q&A, the parent spawns a `*-retriever` child (`knowledge-retriever` / `architecture-retriever` / `data-retriever` / `research-retriever`) and keeps a summary card. Do not pack inline in the parent for Q&A.
+For Q&A, the parent spawns a `*-retriever` child (`knowledge-retriever` / `architecture-retriever` / `data-retriever` / `research-retriever`) and keeps a summary card. Do not pack inline in the parent for Q&A. The contract lives in second-brain-core **0.3.8** (`docs/RETRIEVAL.md`; `sbc_common.py pack --tiny --summary`).
 
 Existing second brains: [okf-plugin noun-ownership migration](https://github.com/SpillwaveSolutions/okf-plugin/blob/main/docs/user_guide/noun-ownership-migration.md).
 
