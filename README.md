@@ -132,7 +132,7 @@ Install the engineering substrate the same way as a job pack. These pins are the
 | `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.5.2** |
 | `research-knowledge-capture` | [research-knowledge-capture](https://github.com/SpillwaveSolutions/research-knowledge-capture) | **0.2.7** |
 | `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.8.1** |
-| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.9 |
+| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.10 |
 
 For Q&A, the parent spawns a `*-retriever` child (`knowledge-retriever` / `architecture-retriever` / `data-retriever` / `research-retriever`) and keeps a summary card. Do not pack inline in the parent for Q&A.
 

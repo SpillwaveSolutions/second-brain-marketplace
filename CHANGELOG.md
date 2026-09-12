@@ -18,6 +18,8 @@ summary card. Do not pack inline for Q&A.
 - Add **research-knowledge-capture 0.2.7** (RKC). Layer 0 research second brain: areas, subjects, ResearchQuestion, Claim, Evidence, Finding. Query-time `research-retriever` returns a summary card only.
   - Release: [v0.2.7](https://github.com/SpillwaveSolutions/research-knowledge-capture/releases/tag/v0.2.7)
   - Merge: [research-knowledge-capture#28](https://github.com/SpillwaveSolutions/research-knowledge-capture/pull/28)
+- Pin **worklog 0.24.10** (already published; catalog was still on 0.24.9). Catch-up so `--pins` matches upstream. Not part of the retriever cut.
+  - Release: [v0.24.10](https://github.com/SpillwaveSolutions/wiki_ticket_sdd/releases/tag/v0.24.10)
 - Catalog metadata **0.4.9**. Root and `.claude-plugin/marketplace.json` stay in sync.
 - Follow-up: `okf-remote` / `okf-pointers` / `okf-time-series` are not pinned here. They are not yet discussed as foundation packs.
 
