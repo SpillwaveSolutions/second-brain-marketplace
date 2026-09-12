@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.4.9 — 2026-09-12
+
+Query-time retriever pin bump, plus Research Knowledge Capture as a foundation pack.
+Parent agents spawn a `*-retriever` child (pkc / sac / dekc / research) and keep a
+summary card. Do not pack inline for Q&A.
+
+- Pin **project-knowledge-capture 0.9.4** (`knowledge-retriever`; `pkc_pack.py --summary`).
+  - Release: [v0.9.4](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.9.4)
+  - Merge: [project-knowledge-capture#76](https://github.com/SpillwaveSolutions/project-knowledge-capture/pull/76)
+- Pin **system-architecture-capture 0.5.5** (`architecture-retriever`; `sac_pack.py --summary`).
+  - Release: [v0.5.5](https://github.com/SpillwaveSolutions/system-architecture-capture/releases/tag/v0.5.5)
+  - Merge: [system-architecture-capture#41](https://github.com/SpillwaveSolutions/system-architecture-capture/pull/41)
+- Pin **data-engineering-knowledge-capture 0.5.2** (`data-retriever`; `dekc_pack.py --summary`).
+  - Release: [v0.5.2](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/releases/tag/v0.5.2)
+  - Merge: [data-engineering-knowledge-capture#55](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture/pull/55)
+- Add **research-knowledge-capture 0.2.7** (RKC). Layer 0 research second brain: areas, subjects, ResearchQuestion, Claim, Evidence, Finding. Query-time `research-retriever` returns a summary card only.
+  - Release: [v0.2.7](https://github.com/SpillwaveSolutions/research-knowledge-capture/releases/tag/v0.2.7)
+  - Merge: [research-knowledge-capture#28](https://github.com/SpillwaveSolutions/research-knowledge-capture/pull/28)
+- Pin **worklog 0.24.10** (already published; catalog was still on 0.24.9). Catch-up so `--pins` matches upstream. Not part of the retriever cut.
+  - Release: [v0.24.10](https://github.com/SpillwaveSolutions/wiki_ticket_sdd/releases/tag/v0.24.10)
+- Catalog metadata **0.4.9**. Root and `.claude-plugin/marketplace.json` stay in sync.
+- Follow-up: `okf-remote` / `okf-pointers` / `okf-time-series` are not pinned here. They are not yet discussed as foundation packs.
+
 ## 0.4.8 — 2026-09-01
 
 Pin catch-up for the two foundation plugins the 0.4.7 pass deliberately held.

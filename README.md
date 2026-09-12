@@ -19,6 +19,7 @@ MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Cursor**, **Agent
 /plugin install project-knowledge-capture@spillwave-second-brain
 /plugin install system-architecture-capture@spillwave-second-brain
 /plugin install data-engineering-knowledge-capture@spillwave-second-brain
+/plugin install research-knowledge-capture@spillwave-second-brain
 /plugin install okf-agent-graph@spillwave-second-brain
 /plugin install worklog@spillwave-second-brain
 
@@ -46,15 +47,16 @@ skilz install SpillwaveSolutions/content-media
 
 Claude Code caches the marketplace snapshot. `/plugin` **Available** can lag GitHub, and **In use** stays on the version you originally installed until you update.
 
-After this catalog (`0.4.6`) the foundation **Available** pins are:
+After this catalog (`0.4.9`) the foundation **Available** pins are:
 
 | Pack | Pin |
 |------|-----|
 | `okf-graph-eng` | **0.8.2** |
-| `project-knowledge-capture` | **0.9.1** |
-| `system-architecture-capture` | **0.5.3** |
-| `data-engineering-knowledge-capture` | **0.5.0** |
-| `okf-agent-graph` | **0.7.1** |
+| `project-knowledge-capture` | **0.9.4** |
+| `system-architecture-capture` | **0.5.5** |
+| `data-engineering-knowledge-capture` | **0.5.2** |
+| `research-knowledge-capture` | **0.2.7** |
+| `okf-agent-graph` | **0.8.1** |
 
 ```bash
 /plugin marketplace update SpillwaveSolutions/second-brain-marketplace
@@ -62,6 +64,7 @@ After this catalog (`0.4.6`) the foundation **Available** pins are:
 /plugin update project-knowledge-capture@spillwave-second-brain
 /plugin update system-architecture-capture@spillwave-second-brain
 /plugin update data-engineering-knowledge-capture@spillwave-second-brain
+/plugin update research-knowledge-capture@spillwave-second-brain
 /plugin update okf-agent-graph@spillwave-second-brain
 ```
 
@@ -119,16 +122,19 @@ Rules:
 
 ## Foundation plugins (now in this marketplace)
 
-Install the engineering substrate the same way as a job pack. These pins are the 30 Aug 2026 retrieval-ladder cut.
+Install the engineering substrate the same way as a job pack. These pins are the 12 Sep 2026 query-time retriever cut.
 
 | Plugin | Repo | Pin |
 |--------|------|-----|
 | `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) | **0.8.2** |
-| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.9.1** |
-| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.3** |
-| `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.5.0** |
-| `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.7.1** |
-| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.4 |
+| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.9.4** |
+| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.5** |
+| `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.5.2** |
+| `research-knowledge-capture` | [research-knowledge-capture](https://github.com/SpillwaveSolutions/research-knowledge-capture) | **0.2.7** |
+| `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.8.1** |
+| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.10 |
+
+For Q&A, the parent spawns a `*-retriever` child (`knowledge-retriever` / `architecture-retriever` / `data-retriever` / `research-retriever`) and keeps a summary card. Do not pack inline in the parent for Q&A.
 
 Existing second brains: [okf-plugin noun-ownership migration](https://github.com/SpillwaveSolutions/okf-plugin/blob/main/docs/user_guide/noun-ownership-migration.md).
 
@@ -140,6 +146,7 @@ Onboarding for any host: [second-brain-core docs/ONBOARDING.md](https://github.c
 - [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) - The why second brain. Decisions, experiments, rationale.
 - [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) - The what-is-running second brain.
 - [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) - The data-plane second brain.
+- [research-knowledge-capture](https://github.com/SpillwaveSolutions/research-knowledge-capture) - The research second brain. Areas, subjects, claims, evidence, findings.
 - [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) - Open Knowledge Format graph engine.
 - [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) - AGER orchestrator / doer / judge / synthesizer.
 - [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) - Visible work log. Append-only ULID JSONL plus fold.
@@ -148,7 +155,7 @@ Onboarding for any host: [second-brain-core docs/ONBOARDING.md](https://github.c
 
 Each plugin now ships `docs/ONBOARDING.md`. Give a new Grok Bot that file first. It covers:
 
-- History of the LLM-wiki / second-brain effort (OKF, WikiTicket, PKC, SAC, DEKC, AGER, ContentPacks)
+- History of the LLM-wiki / second-brain effort (OKF, WikiTicket, PKC, SAC, DEKC, RKC, AGER, ContentPacks)
 - Destination state: cloud Grok Bots and local laptop agents reading and writing the same git-native tree
 - Identity, isolation, deterministic write boundary, progressive disclosure
 - Every public repository in this suite plus the foundation layer

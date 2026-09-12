@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-second-brain",
-  "description": "Spillwave second-brain suite plus AGER translators. Foundation (OKF / PKC / SAC / DEKC / AGER / WikiTicket), eight ContentPacks, and framework translators. Cursor is a first-class host.",
+  "description": "Spillwave second-brain suite plus AGER translators. Foundation (OKF / PKC / SAC / DEKC / RKC / AGER / WikiTicket), eight ContentPacks, and framework translators. Cursor is a first-class host.",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.8"
+    "version": "0.4.9"
   },
   "plugins": [
     {
@@ -134,7 +134,7 @@
       "name": "project-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/project-knowledge-capture"},
       "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.9.3",
+      "version": "0.9.4",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
@@ -146,7 +146,7 @@
       "name": "system-architecture-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/system-architecture-capture"},
       "description": "System Architecture Capture. The what-is-running second brain (139 architecture/runtime nouns). Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.5.4",
+      "version": "0.5.5",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/system-architecture-capture",
       "repository": "https://github.com/SpillwaveSolutions/system-architecture-capture",
@@ -158,13 +158,25 @@
       "name": "data-engineering-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/data-engineering-knowledge-capture"},
       "description": "Data Engineering Knowledge Capture. The data-plane second brain (29 nouns). Data jobs are IngestionJob, not AGER Workflow. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture",
       "license": "MIT",
       "category": "productivity",
       "keywords": ["okf", "dekc", "foundation", "claude-code", "grok-build", "codex", "cursor"]
+    },
+    {
+      "name": "research-knowledge-capture",
+      "source": {"source": "github", "repo": "SpillwaveSolutions/research-knowledge-capture"},
+      "description": "Research Knowledge Capture (RKC). Layer 0 research second brain: areas, subjects, ResearchQuestion, Claim, Evidence, Finding. Query-time research-retriever returns a summary card only. Fail-closed ContextPack.",
+      "version": "0.2.7",
+      "author": {"name": "Rick Hightower"},
+      "homepage": "https://github.com/SpillwaveSolutions/research-knowledge-capture",
+      "repository": "https://github.com/SpillwaveSolutions/research-knowledge-capture",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["okf", "rkc", "foundation", "research", "claude-code", "grok-build", "codex", "cursor"]
     },
     {
       "name": "okf-agent-graph",
@@ -182,7 +194,7 @@
       "name": "worklog",
       "source": {"source": "github", "repo": "SpillwaveSolutions/wiki_ticket_sdd"},
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
-      "version": "0.24.9",
+      "version": "0.24.10",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
       "repository": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
