@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.14"
+    "version": "0.4.15"
   },
   "plugins": [
     {
@@ -134,7 +134,7 @@
       "name": "project-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/project-knowledge-capture"},
       "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.9.4",
+      "version": "0.9.5",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
@@ -146,7 +146,7 @@
       "name": "system-architecture-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/system-architecture-capture"},
       "description": "System Architecture Capture. The what-is-running second brain (139 architecture/runtime nouns). Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.5.6",
+      "version": "0.5.7",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/system-architecture-capture",
       "repository": "https://github.com/SpillwaveSolutions/system-architecture-capture",
@@ -170,7 +170,7 @@
       "name": "research-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/research-knowledge-capture"},
       "description": "Research Knowledge Capture (RKC). Layer 0 research second brain: areas, subjects, ResearchQuestion, Claim, Evidence, Finding. Query-time research-retriever returns a summary card only. Fail-closed ContextPack.",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/research-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/research-knowledge-capture",
@@ -194,7 +194,7 @@
       "name": "worklog",
       "source": {"source": "github", "repo": "SpillwaveSolutions/wiki_ticket_sdd"},
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
-      "version": "0.24.10",
+      "version": "0.24.11",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
       "repository": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
