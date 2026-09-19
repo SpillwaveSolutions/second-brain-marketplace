@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.4.15 — 2026-09-19
+
+Pin the three knowledge-capture plugins to today's releases, plus **worklog**,
+which was already a release behind. No plugin is added or removed.
+
+- Pin **project-knowledge-capture 0.9.5**. Retrieval-ladder parity; `ci.yml`
+  parses again after a week of zero-job CI runs.
+  - Release: [v0.9.5](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.9.5)
+- Pin **system-architecture-capture 0.5.7**. The rg search path no longer walks
+  the whole bundle; `find_rg` fails closed; stable result order.
+  - Release: [v0.5.7](https://github.com/SpillwaveSolutions/system-architecture-capture/releases/tag/v0.5.7)
+- Pin **research-knowledge-capture 0.2.8**. Parse once on the scan path; engine
+  parity; fail-closed rg override; rg test coverage.
+  - Release: [v0.2.8](https://github.com/SpillwaveSolutions/research-knowledge-capture/releases/tag/v0.2.8)
+- Pin **worklog 0.24.11**. Already a release behind before this cut. A stale pin
+  installs correctly and is wrong only where the catalog is read, so nothing
+  here changes what `claude plugin update` resolves.
+  - Release: [v0.24.11](https://github.com/SpillwaveSolutions/wiki_ticket_sdd/releases/tag/v0.24.11)
+- Catalog metadata **0.4.15**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.14 — 2026-09-12
 
 Pin **okf-time-series 0.3.3** (dogfood gates). Sample fix, opt-in path
