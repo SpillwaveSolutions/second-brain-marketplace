@@ -55,10 +55,10 @@ After this catalog (`0.4.14`) the foundation **Available** pins are:
 |------|-----|
 | `second-brain-core` | **0.3.8** |
 | `okf-graph-eng` | **0.8.2** |
-| `project-knowledge-capture` | **0.9.4** |
-| `system-architecture-capture` | **0.5.6** |
+| `project-knowledge-capture` | **0.9.5** |
+| `system-architecture-capture` | **0.5.7** |
 | `data-engineering-knowledge-capture` | **0.5.3** |
-| `research-knowledge-capture` | **0.2.7** |
+| `research-knowledge-capture` | **0.2.8** |
 | `okf-agent-graph` | **0.8.1** |
 | `okf-time-series` | **0.3.3** |
 | `okf-pointers` | **0.2.0** |
@@ -138,12 +138,12 @@ Install the engineering substrate the same way as a job pack. These pins are the
 |--------|------|-----|
 | `second-brain-core` | [second-brain-core](https://github.com/SpillwaveSolutions/second-brain-core) | **0.3.8** |
 | `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) | **0.8.2** |
-| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.9.4** |
-| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.6** |
+| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.9.5** |
+| `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.7** |
 | `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.5.3** |
-| `research-knowledge-capture` | [research-knowledge-capture](https://github.com/SpillwaveSolutions/research-knowledge-capture) | **0.2.7** |
+| `research-knowledge-capture` | [research-knowledge-capture](https://github.com/SpillwaveSolutions/research-knowledge-capture) | **0.2.8** |
 | `okf-agent-graph` | [okf-agent-graph](https://github.com/SpillwaveSolutions/okf-agent-graph) | **0.8.1** |
-| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.10 |
+| `worklog` | [wiki_ticket_sdd](https://github.com/SpillwaveSolutions/wiki_ticket_sdd) | 0.24.11 |
 | `okf-time-series` | [okf-time-series](https://github.com/SpillwaveSolutions/okf-time-series) | **0.3.3** |
 | `okf-pointers` | [okf-pointers](https://github.com/SpillwaveSolutions/okf-pointers) | **0.2.0** |
 
