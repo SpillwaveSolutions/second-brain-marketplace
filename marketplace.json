@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.15"
+    "version": "0.4.16"
   },
   "plugins": [
     {
@@ -134,7 +134,7 @@
       "name": "project-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/project-knowledge-capture"},
       "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.9.5",
+      "version": "0.9.6",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
@@ -170,7 +170,7 @@
       "name": "research-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/research-knowledge-capture"},
       "description": "Research Knowledge Capture (RKC). Layer 0 research second brain: areas, subjects, ResearchQuestion, Claim, Evidence, Finding. Query-time research-retriever returns a summary card only. Fail-closed ContextPack.",
-      "version": "0.2.8",
+      "version": "0.2.9",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/research-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/research-knowledge-capture",

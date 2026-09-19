@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.4.16 — 2026-09-19
+
+Pin the symlinked-root patches. No plugin is added or removed.
+
+- Pin **project-knowledge-capture 0.9.6**. Search works on a symlinked bundle
+  root. `rg` prints resolved paths, and `search()` built each hit's path
+  against an unresolved bundle, so `relative_to` raised and search failed
+  outright.
+  - Release: [v0.9.6](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.9.6)
+- Pin **research-knowledge-capture 0.2.9**. Engine parity holds on a symlinked
+  root. The same unresolved root made `_rel` return a wrong absolute path, so
+  the rg and scan engines disagreed about every hit.
+  - Release: [v0.2.9](https://github.com/SpillwaveSolutions/research-knowledge-capture/releases/tag/v0.2.9)
+- Catalog metadata **0.4.16**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.15 — 2026-09-19
 
 Pin the three knowledge-capture plugins to today's releases, plus **worklog**,
