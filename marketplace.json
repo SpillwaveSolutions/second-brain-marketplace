@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.16"
+    "version": "0.4.17"
   },
   "plugins": [
     {
@@ -134,7 +134,7 @@
       "name": "project-knowledge-capture",
       "source": {"source": "github", "repo": "SpillwaveSolutions/project-knowledge-capture"},
       "description": "Project Knowledge Capture. The why second brain: meetings, decisions, TicketLink / WikiTicket work types. Fail-closed 1/4-window ContextPack token budget.",
-      "version": "0.9.6",
+      "version": "0.10.0",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
       "repository": "https://github.com/SpillwaveSolutions/project-knowledge-capture",
@@ -194,7 +194,7 @@
       "name": "worklog",
       "source": {"source": "github", "repo": "SpillwaveSolutions/wiki_ticket_sdd"},
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
-      "version": "0.24.11",
+      "version": "0.24.12",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
       "repository": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
