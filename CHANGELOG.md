@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.4.17 — 2026-10-21
+
+Pin the PRD narrative layer. Worklog was already one release behind, and the pin check fails closed on that. No plugin is added or removed.
+
+- Pin **project-knowledge-capture 0.10.0**. A PRD journey section lands as
+  Persona, UserJourney, JourneyStage, Scenario, and UserStory, and links
+  through to the Feature, Epic, and work Story.
+  - Release: [v0.10.0](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.10.0)
+  - Merge: [project-knowledge-capture#88](https://github.com/SpillwaveSolutions/project-knowledge-capture/pull/88)
+- Pin **worklog 0.24.12**. The catalog pin check was already behind the
+  published release. CI can own ticket sync; bot PRs use a maintainer PAT.
+  - Release: [v0.24.12](https://github.com/SpillwaveSolutions/wiki_ticket_sdd/releases/tag/v0.24.12)
+- Catalog metadata **0.4.17**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.16 — 2026-09-19
 
 Pin the symlinked-root patches. No plugin is added or removed.
