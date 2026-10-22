@@ -49,13 +49,13 @@ skilz install SpillwaveSolutions/content-media
 
 Claude Code caches the marketplace snapshot. `/plugin` **Available** can lag GitHub, and **In use** stays on the version you originally installed until you update.
 
-After this catalog (`0.4.17`) the foundation **Available** pins are:
+After this catalog (`0.4.18`) the foundation **Available** pins are:
 
 | Pack | Pin |
 |------|-----|
 | `second-brain-core` | **0.3.8** |
 | `okf-graph-eng` | **0.8.2** |
-| `project-knowledge-capture` | **0.10.0** |
+| `project-knowledge-capture` | **0.10.1** |
 | `system-architecture-capture` | **0.5.7** |
 | `data-engineering-knowledge-capture` | **0.5.3** |
 | `research-knowledge-capture` | **0.2.9** |
@@ -138,7 +138,7 @@ Install the engineering substrate the same way as a job pack. These pins are the
 |--------|------|-----|
 | `second-brain-core` | [second-brain-core](https://github.com/SpillwaveSolutions/second-brain-core) | **0.3.8** |
 | `okf-graph-eng` | [okf-plugin](https://github.com/SpillwaveSolutions/okf-plugin) | **0.8.2** |
-| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.10.0** |
+| `project-knowledge-capture` | [project-knowledge-capture](https://github.com/SpillwaveSolutions/project-knowledge-capture) | **0.10.1** |
 | `system-architecture-capture` | [system-architecture-capture](https://github.com/SpillwaveSolutions/system-architecture-capture) | **0.5.7** |
 | `data-engineering-knowledge-capture` | [data-engineering-knowledge-capture](https://github.com/SpillwaveSolutions/data-engineering-knowledge-capture) | **0.5.3** |
 | `research-knowledge-capture` | [research-knowledge-capture](https://github.com/SpillwaveSolutions/research-knowledge-capture) | **0.2.9** |

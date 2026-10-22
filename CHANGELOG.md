@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.18 — 2026-10-21
+
+Pin the schema release. No plugin is added or removed.
+
+- Pin **project-knowledge-capture 0.10.1**. Every registry concept has a JSON Schema. `Release` and `Requirement` are included. New fields, including `Story.sprint` and `Story.release`, are optional.
+  - Release: [v0.10.1](https://github.com/SpillwaveSolutions/project-knowledge-capture/releases/tag/v0.10.1)
+  - Merge: [project-knowledge-capture#89](https://github.com/SpillwaveSolutions/project-knowledge-capture/pull/89)
+- Catalog metadata **0.4.18**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.17 — 2026-10-21
 
 Pin the PRD narrative layer. Worklog was already one release behind, and the pin check fails closed on that. No plugin is added or removed.
