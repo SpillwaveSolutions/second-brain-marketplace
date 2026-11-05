@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.19 — 2026-11-05
+
+Pin the RKC resources release. No plugin is added or removed.
+
+- Pin **research-knowledge-capture 0.2.10**. Each new `SourceDocument` carries a `resources` list of the URLs that the dump cites. The schema field is optional.
+  - Release: [v0.2.10](https://github.com/SpillwaveSolutions/research-knowledge-capture/releases/tag/v0.2.10)
+  - Merge: [research-knowledge-capture#39](https://github.com/SpillwaveSolutions/research-knowledge-capture/pull/39)
+- Catalog metadata **0.4.19**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.18 — 2026-10-21
 
 Pin the schema release. No plugin is added or removed.
