@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.20 — 2026-11-05
+
+Pin the RKC resources fix. No plugin is added or removed.
+
+- Pin **research-knowledge-capture 0.2.11**. 0.2.10 wrote `resources` as a list of maps, which `okf-graph.py validate` cannot read. `resources` is now a list of URL strings, and the titles move to the body.
+  - Release: [v0.2.11](https://github.com/SpillwaveSolutions/research-knowledge-capture/releases/tag/v0.2.11)
+  - Merge: [research-knowledge-capture#41](https://github.com/SpillwaveSolutions/research-knowledge-capture/pull/41)
+- Catalog metadata **0.4.20**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.19 — 2026-11-05
 
 Pin the RKC resources release. No plugin is added or removed.
