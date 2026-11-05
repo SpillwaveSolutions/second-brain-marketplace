@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.21 — 2026-11-05
+
+Pin the OKF parser fix. No plugin is added or removed.
+
+- Pin **okf-graph-eng 0.8.3**. `parse_frontmatter` reads a block list of maps under any key, not only `links:`. Before this fix, a nested `title:` in a list item overwrote the concept title. Inline lists keep quoted commas.
+  - Release: [v0.8.3](https://github.com/SpillwaveSolutions/okf-plugin/releases/tag/v0.8.3)
+  - Merge: [okf-plugin#77](https://github.com/SpillwaveSolutions/okf-plugin/pull/77)
+- Catalog metadata **0.4.21**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.20 — 2026-11-05
 
 Pin the RKC resources fix. No plugin is added or removed.

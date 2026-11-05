@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.20"
+    "version": "0.4.21"
   },
   "plugins": [
     {
@@ -122,7 +122,7 @@
       "name": "okf-graph-eng",
       "source": {"source": "github", "repo": "SpillwaveSolutions/okf-plugin"},
       "description": "OKF graph engine. Owns Catalog and ContextPack only. Domain nouns live in PKC / SAC / DEKC / AGER. Fail-closed PostToolUse validate.",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/okf-plugin",
       "repository": "https://github.com/SpillwaveSolutions/okf-plugin",
