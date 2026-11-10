@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.22 — 2026-11-10
+
+Pin the WikiTicket install-path release. No plugin is added or removed.
+
+- Pin **worklog 0.24.13**. `worklog init` copies the CLI to `bin/wiki-ticket/`, so a repo that already uses `bin/` keeps its own tools. The command is `bin/wiki-ticket/worklog`.
+  - Release: [v0.24.13](https://github.com/SpillwaveSolutions/wiki_ticket_sdd/releases/tag/v0.24.13)
+- Catalog metadata **0.4.22**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
+
 ## 0.4.21 — 2026-11-05
 
 Pin the OKF parser fix. No plugin is added or removed.
