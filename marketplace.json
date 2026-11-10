@@ -7,7 +7,7 @@
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.4.21"
+    "version": "0.4.22"
   },
   "plugins": [
     {
@@ -194,7 +194,7 @@
       "name": "worklog",
       "source": {"source": "github", "repo": "SpillwaveSolutions/wiki_ticket_sdd"},
       "description": "WikiTicket SDD (worklog). Visible WIP. Append-only ULID events plus fold.",
-      "version": "0.24.12",
+      "version": "0.24.13",
       "author": {"name": "Rick Hightower"},
       "homepage": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
       "repository": "https://github.com/SpillwaveSolutions/wiki_ticket_sdd",
