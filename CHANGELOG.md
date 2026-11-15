@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.4.23 — 2026-11-15
+
+Pin the RKC resource backfill and set commands. No plugin is added or removed.
+
+- Pin **research-knowledge-capture 0.2.13**.
+  - 0.2.12 adds `rkc_ingest.py --backfill-resources`. It writes `resources` on each `SourceDocument` ingested before 0.2.10.
+  - 0.2.13 adds `rkc_ingest.py --set-resources FILE --source-hash H`. It writes `resources` from a looked-up list, for a dump that cites works by name with no URLs.
+  - Merges: [research-knowledge-capture#42](https://github.com/SpillwaveSolutions/research-knowledge-capture/pull/42), [research-knowledge-capture#43](https://github.com/SpillwaveSolutions/research-knowledge-capture/pull/43)
+- Catalog metadata **0.4.23**. Root and `.claude-plugin/marketplace.json` stay in sync.
+
 ## 0.4.22 — 2026-11-10
 
 Pin the WikiTicket install-path release. No plugin is added or removed.
